@@ -1,0 +1,48 @@
+This is Android 13 with February 2023 (r30) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk.
+- We're not responsible for any issues that this may cause.
+
+Device changes:
+==============================
+Don't force enable ims features
+Move HWC brightness control prop to system
+Remove FM Tuner from audio input devices
+audio: fixup audio io policy voip_rx flags
+overlay: Allow VoLTE and VoWiFi/WFC by default
+overlay: Push 120 FPS for ScreenRecorder
+vibrator: Add support to awinic_haptic node
+------------------------------
+
+ROM changes:
+==============================
+Bring back Parallel Space support
+Evolver: Restore Custom QS panel styles
+Fix status bar landscape touch issues
+InputMethodManager: Prevent unnecessary invocation of IM
+KeyguardMediaViewController: Cleanup and add proper annotations
+Launcher3: Redesign recents app buttons
+PixelPropsUtils: Don't declare propsToChange as static
+PixelPropsUtils: misc changes
+Remove support for custom themed icon pack
+SystemUI: Bring back Bluetooth dialog
+SystemUI: Fix a race condition on reticker's visibility
+SystemUI: Fix optional ripple animation issue
+SystemUI: Make Bluetooth dialog tile optional
+SystemUI: QSPanel: Enable split notification shade in landscape with normal density
+SystemUI: Refactor notification reticker
+SystemUI: Restore default biometric listener behavior
+apn: Add Wintel
+apn: Don't set type default for Vodafone MMS 404/43
+fonts: Remove config_clockFontFamily from Google Sans overlay
+gms: Add missing READ_DEVICE_CONFIG permission for System Intelligence
+gms: Stop building prebuilt Chrome and PixelLiveWallpaperPrebuilt
+hosts: Block OTA downloading from GMS
+hwui: Prevent systemui crash caused by segfault
+overlay: Add google OTA to global disabledComponent
+overlay: Partially disable gms chimera service
+services: core: Temporaily handle NullPointerException in PackageManagerService
+version: Update to 7.6.2 (Tapsilog)
+wm: Avoid system crash due to usage of released layer
