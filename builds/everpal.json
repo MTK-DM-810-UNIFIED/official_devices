@@ -1,17 +1,17 @@
 {
+    "datetime": 1677336018,
     "donate_url": "https://www.patreon.com/mmtrt",
-    "datetime": 1677335892,
+    "error": false,
     "filehash": "be6dfe26077de96816a03caf03de2bcd",
     "filename": "evolution_everpal-ota-tq1a.230205.002-02261409-community-unsigned.zip",
-    "id": "a1376b65b116642e7f267f67bb644bd796bc1f74a27e25ec7510dce5138c28af",
+    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r3-official-evolution-x-7-0-for-redmi-note-11-nfc.4485855/",
+    "id": "ea4742eaa2ef16b8cb6cd48a15925e6d35979944b4d4459d764de0b54bce4fab",
+    "maintainer": "Taqi Raza(mmtrt)",
+    "maintainer_url": "https://t.me/mmtrt",
+    "news_url": "https://t.me/EvolutionXOfficial",
     "size": 1957589139,
+    "telegram_username": "mmtrt",
     "url": "https://ghproxy.net/https://github.com/MTK-DM-810-UNIFIED/official_devices/releases/download/v2023-02-26/evolution_everpal-ota-tq1a.230205.002-02261409-community-unsigned.zip",
     "version": "Thirteen",
-    "website_url": "https://evolution-x.org",
-    "telegram_username": "marshmello_61",
-    "news_url": "https://t.me/EvolutionXOfficial",
-    "maintainer_url": "https://forum.xda-developers.com/m/marshmello_61.9134270/",
-    "maintainer": "Mayur Varde",
-    "forum_url": "https://forum.xda-developers.com/t/android-13-rmx2170-evolution-x-for-realme-7-pro-official-rom.4485719/",
-    "error": false
-}
+    "website_url": "https://evolution-x.org"
+ }
