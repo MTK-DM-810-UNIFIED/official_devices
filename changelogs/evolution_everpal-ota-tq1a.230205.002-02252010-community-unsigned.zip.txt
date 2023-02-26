@@ -1,0 +1,3 @@
+Public release
+Synced src again
+Refresh rate fixed
