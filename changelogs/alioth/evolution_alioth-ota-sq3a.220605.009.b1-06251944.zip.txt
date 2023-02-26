@@ -1,1 +1,0 @@
-Revert EROFS change, fixes vibration and allows users to use whatever kernel or recovery they want

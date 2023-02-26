@@ -1,3 +1,0 @@
-Fix Audio issues
-Build AudiohalExt from source
-Sync to latets source changes

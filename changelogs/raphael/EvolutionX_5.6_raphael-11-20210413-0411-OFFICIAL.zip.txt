@@ -1,9 +1,0 @@
-Device changes:
-==============================
-None
-------------------------------
-ROM changes:
-==============================
-Bluetooth: don't kill stack if Telecom not found
-Cleanup/revert Zygote fork commits
-Switch from using ThemePicker to WallpaperPicker2

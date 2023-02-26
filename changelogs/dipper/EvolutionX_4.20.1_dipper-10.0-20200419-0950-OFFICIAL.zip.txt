@@ -1,4 +1,0 @@
-Disable updateable APEX
-Add FOSS config
-Add Bonito brightness curve
-Other improvements

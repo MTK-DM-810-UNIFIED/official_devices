@@ -1,6 +1,0 @@
-Remove Parallel space support
-SystemUI: Support smartspace animation for Pixel Launcher
-Update gms
-Updater: Disable A/B perf mode by default
-core: Make CTS/Play Integrity pass again
-version: Update to 7.6.1 (Adobo)

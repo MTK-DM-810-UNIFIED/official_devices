@@ -1,7 +1,0 @@
-Fix Bluetooth
-Enable iWLAN
-Force enable VoWiFi
-Fix Dual VoLTE
-Add aptX
-Enable Fast BSS Transition
-Some more improvements

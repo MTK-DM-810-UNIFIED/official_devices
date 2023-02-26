@@ -1,3 +1,0 @@
-Device side:
-- Updated build fingerprint to Coral June patch.
-- Latest Evolution X source.

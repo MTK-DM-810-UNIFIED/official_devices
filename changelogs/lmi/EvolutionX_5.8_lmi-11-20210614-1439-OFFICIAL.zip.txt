@@ -1,8 +1,0 @@
-This mark the second stable release for lmi.
-
-Upgradeable from STABLE-QC-A93KJ-REL-test-keys — EvolutionX_5.8_lmi-11-20210614-0432-OFFICIAL
-
-This release tag is STABLE-QC-B91KJ-REL-test-keys
-
-* Adjusted some padding
-* Latest ROM Source

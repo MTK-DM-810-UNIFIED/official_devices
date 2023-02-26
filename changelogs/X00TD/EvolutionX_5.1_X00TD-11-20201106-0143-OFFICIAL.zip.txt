@@ -1,5 +1,0 @@
-Fixed Hotspot cant access internet issue
-Fixed green video recording bug
-Fixed Kcal profiles
-Improved UI performance
-Reduced Screenshot delay
