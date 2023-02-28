@@ -1,0 +1,804 @@
+=======================
+     2023/02/27
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+ecfa3217e1b2 SystemUI: Allow to change QS tile label text size [1/2]
+0581215568ca SystemUI: QS customizations settings [1/2]
+8527e0983ded PixelPropsUtils: Don't spoof some apps
+9dca1e19898d PixelPropsUtils: Don't declare propsToChange as static
+fec537bc01be SettingsProvider: Remove backup for some feature settings
+e679c4a6eb66 camera2: Add non burst sizes to mandatory streams for ultra high resolution sensors
+85fcd83da602 Use profile's power button/timeout lock settings
+73b46965e360 Fix unlocking of multiple work profiles at boot
+7fd8f65463ca Fix Open With dialog within a work profile
+92eb233c1a56 Add additional work profile badge colors and labels
+07fa26dbe510 Always allow overriding the number of work profiles
+0e57f1fd70d4 ParallelSpace: Add back {OPlus|Device}Extras to block list
+77fdd30fb0d8 services: core: Temporaily handle NullPointerException in PackageManagerService
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+06942db New Crowdin updates (#226-#393)
+2e68c09 Evolver: Allow to change QS tile label text size [2/2]
+eee5b53 Evolver: Adjust QSLayoutUtils after repick
+
+
+=======================
+     2023/02/26
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+e2a8c3a03eae [SQUASH] Custom QS panel styles [1/3]
+304ad4f14784 Fix stuck screen from display change timeout
+934f0e1e94da Add BT LE headset check for voice call to update the icon
+b3ea33a59805 UI can Enable/Disable VCP and CSIP
+cf821cbedbf9 fwb: remove spammy wallet lockscreen icon error
+6cfddb35c7d6 Set alert dialog message to use system font
+50867a512d2d ColorContoller: Fix getting default accent color
+f5c19b988af6 ClockRegistry: Remove clock id checks except default
+09c5a33c6e8d display: Make Night Light transition more gradual
+6c8bd2e27031 permissions: Pre-grant google restore permissions
+a918f941f96d Prevent apps from crashing if internet permission is revoked.
+9ca031033284 SystemUI: Rework OOS style notification clear all button
+08c1d79374e9 SystemUI: Restore default biometric listener behavior
+722b3127fac5 SystemUI: Hide wifi standard icon if not connected to wifi
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+a1fefa9 GameSpace: Remove dim layer from the panel view
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+27bd1a908e Launcher3: Redesign recents app buttons
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+90a4c14e Revert "device_config: Use new privacy indicators for location"
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+6224bd8 SettingsGoogle: Sync with Evolution X changes
+9b4e9e8 SystemUIGoogle: Sync with Evolution X changes
+fc7b0c1 SystemUIGoogle: Fix deprecated quality check
+89407b0 SystemUIGoogle: Update adaptive charging description to match normal charging indication
+8942359 SettingsGoogle: Follow monet color in settings icon like AOSP
+615119a SystemUIGoogle: power: disable some debug services
+4cdcba3 SystemUIGoogle: Use system font for smartspace
+d591d95 SystemUIGoogle: Add missing permission for Smartspace.
+f277def SettingsGoogle: Grab screen resolution drawables from cheetah-td1a.220804.031-factory-6152f6f3
+815b1b7 KeyguardMediaViewController: Cleanup and add proper annotations
+
+
+=======================
+     2023/02/25
+=======================
+
+* Repository: https://github.com/mmtrt/device_xiaomi_everpal/commits/mix
+
+26e3c55 everpal: rro_overlays: use peak & min refresh rate controls
+265a26d everpal: rro_overlay: disable burn in protection
+97643a4 everpal: force enable adb on non eng builds
+a604934 everpal: device: use non vendor libaudioprocessing & libbluetooth_audio_session
+e5132e8 everpal: move nfc manifest under configs/vintf
+bcc9eed everpal: move system|vendor props under configs/props
+c0bfb12 everpal: add evolutionx build support
+25a21f3 everpal: add sparkos build support
+665d430 everpal: add lineageos build support
+d9b190f everpal: add arrowos build support
+13695ff everpal: Use RSA4096 key for the vbmeta images
+0e18f92 everpal: Remove unsupported flags from fstab
+f3b5005 everpal: fstab: Nuke the /cache mount point
+cfd19c2 everpal: Switch to `config_show_refresh_rate_controls`
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+b7e99f18e622 SystemUI: Lockscreen clock format settings [1/2]
+a160fab0a032 SystemUI: Combined signal icons toggle [1/2]
+ae2ad1b54437 SystemUI: Restore Combined signal icons support
+3796af1904b6 SystemUI: Update lyric ticker on post notification
+7ac26f6ce2a2 BrightnessUtils: Allow maintainer to set desired brightness curve impl
+36255438e230 base: Fix brightness slider curve for some devices
+ef65743b83d7 BrightnessController: update icon state for auto bg icon
+fd3ae4fca7a2 Battery Style Improvements
+b177f0eb0719 Battery bolt: Preserve unicode bolt color
+8698b7c1f8b4 udfps: framework_dimming: No need to return newDimAmount
+6f4fc472263b Global VPN feature [1/2]
+de43ea2bd503 SystemUI: Don't open power menu from QS too if disabled by user on secure lockscreen
+ae5690f0f3c4 BoostFramework: Guard it with overlay
+7b2bce53fcdc OverScroller: Import BoostFramework.ScrollOptimizer
+05ecec6eedb3 Filter multi-layer cases for pre-rendering
+0f56de445c26 perf: Add lock protection for initialization in ScrollOptimizer
+5027d9f21342 core: Port CLO's Framework Boost
+5e2fda76cfd5 base: Grant OnePlus and MIUI Gallery storage permissions
+5304460631aa DefaultPermissionGrant: Fix google search crash
+d6eb683b8420 SystemUI: Use secondary label for language QS tile
+14af0eab52e7 QS: Locale Tile
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+f10bc66 manifest: Track our own system/apex
+bdcf0d1 manifest: Initial A13 manifest (Evolution X 7.6.1)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+e0700dd Evolver: Move pulse on new tracks from Settings
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+4b322811e8 [SQUASH] Launcher3: Revert Smartspace to pre-13-QPR1
+02d72b2654 Launcher3: Hide developer option
+8af6d69ac0 Launcher3: Shorten Spanish translation
+ecb3ccaf80 Launcher3: Add kill App button to recents overview
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+09da6556c3 New Crowdin updates (#127-#287)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+aee2f6d0 overlay: Partially disable gms chimera service
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+ab44704 gms: Stop building Chrome and PixelLiveWallpaperPrebuilt
+
+* Repository: https://gitlab.com/mmtrt/vendor_xiaomi_everpal/commits/thirteen
+
+83ee967 fixup
+
+
+=======================
+     2023/02/24
+=======================
+
+* Repository: https://github.com/mmtrt/device_xiaomi_everpal/commits/mix
+
+20c02c2 everpal: Build missing tethering interface
+79bd8a0 everpal: Drop `excluded-input-devices.xml`
+3eee6ff everpal: Import Keylayout Configs
+9944d85 everpal: Import Neural Networks blobs from `light` T
+43f1e93 everpal: perf: Reduce INTERACTION uclamp value down to 50%
+70c2785 everpal: Drop unneeded build info from the product makefile
+01fdd24 everpal: libinit: Override `ro.boot.hardware.sku` as well
+4e00ef8 everpal: Move `SoterService` to `system_ext`
+3cc638f everpal: Import NFC stack from `opal`
+cdf771c everpal: Import Secure Element blobs from `opal`
+2245053 everpal: Import stock APN configs
+5d49604 everpal: Force enable VoNR/Vo5G
+9dd08d4 everpal: Offload WM shell to another thread
+edffc03 everpal: Enable haptic text cursor
+c668bd6 everpal: Set default vibration intensity level to high for all 5 modes
+2224afa everpal: Update overlay for vibration intensity levels
+6041ba3 everpal: Enable multiple vibration strength levels
+98a0ca9 everpal: rro_overlays: Enable config_vibrateOnIconAnimation
+017108d everpal: vibrator: improvise DOUBLE_CLICK effect using repitition
+335ee91 everpal: vibrator: make use of the `effect_id` node
+324c185 everpal: vibrator: make use of the `activate_mode` node
+b7cbe50 everpal: vibrator: use props to determine index and duration
+ab3afe4 everpal: rro_overlays: CarrierConfig: Set LTE+ threshold bandwidth to 0
+07bfc29 everpal: rro_overlays: CarrierConfig: Enable LTE+ icon
+6019b35 everpal: Exclude MTK IMS app from location indicator
+353f3bc everpal: Unpin updatable-media from memory
+91f708d everpal: Disable NFC apps for non nfc variants
+7746381 everpal: Pin the HOME application in memory
+195bfcd everpal: Pin standard SystemUI instead of Google's
+891b9d0 everpal: Import pinner service config from `sunfish`
+07bd003 everpal: Add back the VoNR prop
+1128f00 everpal: InCallService: Adjust gain values in all situations
+a871187 everpal: InCallService: Restore gain levels on boot and call initiation
+d23f6f9 everpal: audio: Set Voice Call volume steps to 15
+a873f85 everpal: Introduce MediaTek In-Call Service
+c169cf4 everpal: Add missing `HotwordEnrollment` permissions
+626b7ca everpal: Move HotwordEnrollment permission to the device tree
+dbf6078 everpal: Blank display after doze
+507cb59 everpal: Kang auto brightness configuration from `begonia`
+ac887d0 everpal: rro_overlays: Add TetheringOverlay
+7bfc7ce everpal: Import WiFi Overlay
+41e6713 everpal: Remove old configuration and use new config for MMTEL/RCS
+8cb8695 everpal: rro_overlays: Telephony: Import relevant overlay
+d1bf54a everpal: Import CarrierConfig Overlay
+7c1a100 everpal: Add priv-app permissions for IMS
+ac29d44 everpal: Add debug IMS props to workaround CarrierConfig restrictions
+c542789 everpal: Provide a shim for `libsink`
+8e027f0 everpal: Kang IMS Blobs from `light` T
+d3cfbea everpal: fcm: fixup!
+b1e8505 everpal: Add NFC support
+c3b4517 everpal: overlay: Fix fingerprint wake-up animation
+963d9f6 everpal: rro_overlays: Import missing fingerprint sensor overlays
+8a41432 everpal: rro_overlays: correct typo
+4a49a0d everpal: rro_overlays: Add Aperture QRCodeComponent support
+43a63a3 everpal: rro_overlays: Configure aux camera for Aperture
+ba7565b everpal: Build the `Aperture` camera
+68ba5f0 everpal: manifest: Add more biometrics entries
+feb0bfc everpal: rootdir: Fix permissions of the fingerprint nodes
+8f2ec6e everpal: power: Add GPU scheduling mode change command
+689c937 everpal: Fixup config_dozeComponent
+acdc500 everpal: rro_overlays: power_profile: fixup!
+2c731a4 everpal: Import More Overlays
+61220f3 everpal: Enable burn-in protection for Ambient Display
+6a21078 everpal: Disable AOD by default
+1c9a878 everpal: Make UI smoother
+1a34b72 everpal: Enable Project ID Quota support on userdata
+98828f8 everpal: Disable HWC composition strategy prediction
+3a2c06c everpal: Disable continuous transaction tracing on all build types
+559b7e2 everpal: Increase `sf.hwc.min.duration`
+71c6ee9 everpal: Remove obsolete debug.sf.disable_backpressure
+836b28d everpal: Enable GL comp backpressure
+6adcd56 everpal: Disable client composition cache
+5a67aaf everpal: Build Xiaomi's common fingerprint HAL
+41fe16a everpal: Switch to source-built mlipay interface
+b4e0425 everpal: Build `IFAAService` from Source
+3101518 everpal: Add `hardware/xiaomi` into the Soong Namespaces
+5666daa everpal: Track `hardware/xiaomi`
+7114d15 everpal: Declare `BOARD_VENDOR`
+6d6f44c everpal: Drop MTK audiopreprocessing
+f08f09a everpal: Enable zygote critical window
+4c041ee everpal: light: Remove ndk_platform backend. Use the ndk backend.
+ae9b3e6 everpal: light: Adapt brightness scaling behaviour to match MIUI
+6bdadb8 everpal: Switch to OSS Lights AIDL from RM6785
+de0c5da everpal: Define the Fingerprint Sensor's position
+85831f9 everpal: Add auto brightness overlays
+43c6a34 everpal: rro_overlays: Add missing Vibration Patterns
+7c959e0 everpal: Enable refresh rate toggle in Settings
+3d015ce everpal: Add default frame rate setting
+5f99cad everpal: Enable peak refresh rate (90hz)
+6654c24 everpal: rro_overlays: Properly indicate cutout
+bb8cda8 everpal: rro_overlays: Fix status bar height and padding
+093827b everpal: Add Initial Overlays
+1e5e026 everpal: Cleanup the fstab
+9413cce everpal: Silence vendor logspam
+b6b29a3 everpal: Start tracking dependencies
+e6d2788 everpal: recovery: Include Touch Firmware
+060fd28 everpal: Cleanup Vendor Properties
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+67065ace82fc SystemUI: Increase blur radius to 65px
+5e288ec74b69 SystemUI: Also blur power sub-menus
+ca79f3346635 SystemUI: Blur the power menu
+bd473ffc1078 SystemUI: Blurs: allow blur even when GFX acceleration is disabled
+edd759f345af NotificationShade: Make blur crossfading more gradual
+cdafe6c8ba99 AntiFlickerTile: Fix error in handleRefreshState
+82f98806c38b data: Add missing systemui permissions
+9888747f3879 Camera: Fix size list parceling
+bdacc8c8bc05 Camera: Remove 3 processed streams combination for stream use case
+451f396cd875 LocalImageResolver: flag off debug logging
+93384d189d55 CameraManager: Handle NPE with ActivityThread.currentOpPackageName()
+752fdb30776f fixup! Camera: Skip stream size check for whitelisted apps
+4f3bae44f4e4 SystemUI: Support smartspace animation for pixel launcher
+5a339744de4c Toast app icon display is inconsistent for system apps
+1e9e111305ea Change mODICaptionsTooltipView null check occasion to avoid potential crash
+99feec0a1818 core: Whitelist misc system apps
+4275a33efbf5 Fix NPE when finishing remote animation
+2bef8772a28b Fix disabling power menu completely on secured lock screen
+705b3af20733 SystemUI: Let screenshot window ignore screen decorations
+672ed7d32117 SystemUI: Re-evaluate theme when adjusting status bar clock text size
+9633431b4ad3 SystemUI: Allow making Navigation Pill thinner [1/2]
+643e4014e4a7 ShutdownThread: flag off debug logging
+7379e1f10da3 UdfpsUtils: Use config_supportsUdfps to check for all Udfps devices
+8694c21d2184 NotificationChannel: Correctly restore flashlight pattern enablement
+4d298c490039 [BugFixed][OOM_ADJ] use max_adj to control process final adj
+1a46cf1b7161 SystemUI: Disable lockscreen album art by default [1/2]
+17eab34cec88 SystemUI: Import V6 pixel display interfaces
+9d3da91787cf SystemUI: Unblock alarm and vibrate status bar icons
+1d45d121337f SystemUI: Fix alarm icon
+3aaa62d45734 base: Allow disabling color inversion support [1/2]
+b54689aa4fcd SystemUI: Introduce Google TV remote controls keyguard affordance [1/2]
+ecdb0bc13c4f Fix potential NPE when MessagingMessage's message is null
+f04abc33dcb7 Fix crash when comparing messages
+bfc187fccc56 SystemUI: Calculate paged QS tiles height properly
+d10a359e2937 SystemUI: QS footer data usage improvements and cleanup
+95565d08bb06 MobileSignalController: Do not duplicate SPN and PLMN
+c446c29c08f1 RingtoneManager: Set a default ringtone for the SIM 2
+04537d0ba87d base: Add `@Readable` for RINGTONE2 and RINGTONE2_CACHE
+5a76cfa8f6dd base: Phone ringtone setting for Multi SIM device [1/3]
+55fb81141b74 AttestationHooks: Spoof device as Pixel XL for Google Photos
+e7017f281b55 core: Make CTS/Play Integrity pass again
+89cbdb02d8fd PixelPropsUtils: Update fingerprints to February 2023 release
+6c0e95772bf6 PixelPropsUtils: spoof snapchat
+5ffbdffcbdb3 PixelPropsUtils: Use Xiaomi 11T for Clash of Clans
+356b15c81c4e ParallelSpace: Switch to our setup wizard
+c6244c1170eb ParallelSpace: Blocklist FM Radio apps
+08cf4b68a0ee ParallelSpace: Switch to our OTA package
+6189a83f9245 ParallelSpace: Add Android Auto to block list
+c21c471e3f56 [SQUASH] Revert multiple commits
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+5c0ad92 Multiple work profile badge colors for Launcher3
+a4ea16d ClockDrawableWrapper: Set DISABLE_SECONDS to false
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+68122084aa blur: Reduce max cross fade radius for OpenGL
+aa6b0755db blur: Invalidate newly-bound framebuffers before rendering
+8985765fd1 blur: Calculate vertices in vertex shader instead of using VBO
+5b01d174c8 blur: Interpolate tap UV coordinates in vertex shader
+539dbd5348 blur: Reduce floating-point precision for UV coordinates
+ca0bacb263 blur: Downscale image before blurring
+6520f090d7 blur: Only set constant shader uniforms once
+f8b0861964 blur: Dither output using triangular RGB blue noise
+73f10ff794 blur: Skip processing of alpha channel by swizzling RGB
+bff8eec18b blur: Improve terminology used in mix shader
+44a0b3b0ca blur: Limit blur to the two frontmost layers
+10c9c18a65 SF: Allow forcing HWC brightness support
+b7f0e5192b SF: Allow force fallback to Light HAL for brightness
+5b9696d4d0 Remove BLASTBufferQueue debug log line
+b6368375c5 Revert "BLASTBufferQueue: Limit logspam"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+57ef366 Evolver: Custom QS panel styles [3/3]
+29c48f7 Evolver: Combined signal icons toggle [2/2]
+3d6856d Evolver: Lockscreen clock format settings [2/2]
+4e0fe15 Evolver: Redesign LS Clockpicker
+15c6c1b Evolver: Refactor qs tiles layout fragment
+c7c3aa5 Evolver: QS hide label setting [2/2]
+f4b391d Evolver: QS tiles count & vertical layout settings [2/2]
+193f547 [SQUASH] Evolver: Remove previous QS tile layout implementation [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+8fd119b732 Launcher3: No Calendarwidget 4x4 widget displayed
+baec376f44 Launcher3: device_profiles: catch up to 13
+4a1d06da1a Launcher3: meminfo: Replace deprecated BigDecimal methods
+d5693173d8 Launcher3: Make music search icon colorful
+4f97a30258 Launcher3: Fix nonsense smartspace span in some workspaces
+0622b62a27 Launcher3: Fix widget add screen on dark theme
+3d2db2ed84 Launcher3: Fix crash when placing widgets
+73b998ccb6 Launcher3: Allow changing feature flags on user builds
+427e24bd03 Launcher3: Remove unnecessary icon modification for taskbar in dark style
+76d18fa33f Launcher3: Add category for At A Glance
+8e8330a91e Launcher3: Optional music search toggle for QSB
+2d17bc410a Launcher3: Open google weather on tapping smartspace
+68ec3fb635 Launcher3: Update smartspace to 13-QPR1
+340bb25165 Launcher3: Increase default blur radius to 65px
+7d46ce60ce Launcher3: Updates from Pixel Launcher
+2baac26546 Launcher3: Bring back 4x4 grid option
+d5af814414 Launcher3: Add more permissions to manifest
+076768965b Launcher3: Add ACCESS_SURFACE_FLINGER permission to manifest
+76c9b1da77 New Crowdin updates (#20-#22)
+1205a4122d Revert "Launcher3: add support for custom themed icon pack [3/3]"
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+d51e780 ThemePicker: Update PixelThemesStub from cheetah-user 13 TQ1A.230105.002
+fb009d2 ThemePicker: grid_section_view: Center it like the rest
+6bdcd84 ThemePicker: Unify font & icon label sizes, scroll the text
+161c0af ThemePicker: Grant missing wallpaper permissions
+9841fbf New Crowdin updates (#7-#10)
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+4c4a49063 hosts: Block OTA downloading from GMS
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+6c59b166 version: Update to 7.6.2 (Tapsilog)
+5902b926 packages: Bring back Parallel space [2/4]
+8e0771c3 themes: Custom QS panel styles [2/3]
+20316528 themes: Remove config_clockFontFamily from Google Sans overlay
+c217f045 apn: Add Wintel
+43d2423b overlay: Add google OTA to global disabledComponent
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commits/refs/heads/lineage-20.0
+
+3f1adaf usb: Add interface specifiers to USB/USB gadget services
+
+* Repository: https://gitlab.com/mmtrt/vendor_xiaomi_everpal/commits/thirteen
+
+75469da Fixup
+
+
+=======================
+     2023/02/23
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+cfcfa274 apn: Don't set type default for Vodafone MMS 404/43
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+5583e65 rosemary: Initial firmware
+
+* Repository: https://gitlab.com/mmtrt/vendor_xiaomi_everpal/commits/thirteen
+
+734c69f everpal: Update vendor tree
+
+
+=======================
+     2023/02/22
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+c2dfb923c1 Settings: Move pulse on new tracks to Evolver
+ffc59249d5 Revert "Settings: Add clang version to firmware_version"
+
+* Repository: https://github.com/Evolution-X/system_apex/commits/refs/heads/tiramisu
+
+0b982a94 Improve logic around pre-allocation loop devices
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+671b583b themes: UIStyle: fix settings icons being invisible in Clear theme
+4eb0dfbb vendor: charger: Import latest offline charging animation
+74961967 overlay: Enable config_setColorTransformAccelerated by default
+7d41c9e8 vendor: Add GoogleSansMedium font
+b1d7a490 clockfonts: Add 50+ New Fonts for LS Clock
+97b980a3 fonts: Add more lockscreen clock fonts
+e3f06bbc clockfont: Replace Sedgwick Ave with Permanent Marker
+83e7b001 fonts/clockfonts: updates
+7ded253c fonts: More fonts for our system
+be9902c2 fonts: add 404 variant of Circular-Std
+91ab7398 clockfonts: Add more styles for lockscreen clock
+
+
+=======================
+     2023/02/21
+=======================
+
+
+=======================
+     2023/02/20
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+4f329a49b41c New Crowdin updates (#386-#406)
+c091375c9b44 base: Update copyright year
+06f2ad8cfb98 Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/frameworks/base into tiramisu
+
+* Repository: https://gitlab.com/mmtrt/vendor_xiaomi_everpal/commits/thirteen
+
+cf55e97 everpal: Kang {IMS,Charger} from `light` T
+
+
+=======================
+     2023/02/19
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+4991c85 [DNM] Revert "common: sepolicy: Label ro.vendor.fm.use_audio_session property"
+09ecad4 common: Force all include
+3802e11 common: Defin vendor/aosp FCM
+
+* Repository: https://github.com/Evolution-X/packages_apps_GCamGOPrebuilt/commits/refs/heads/tiramisu
+
+4e8e558 GCamGOPrebuilt: Add GCamGOPrebuilt-V4
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+6cd5005c vendor: fix NexusLauncher for tablet mode & follow system taskbar size
+07d1729e themes: Add more signal icons
+2bbb8d47 rro_overlays: Add Miui Camera to config overlays [1/2]
+356d0f7d SystemUIGXOverlay: unset camera gesture package
+003c819a vendor: Refactor
+fd402746 config: Add blur props and flag
+35f071cd config: Disable blur on app-launch
+e92e7ab8 config: Disable Async MTE on System Server
+5440eaf1 config: Add missing permissions for {SystemUI|Settings}Google
+168ac15a config: BoardConfigQcom: Allow use of Specific FM HAL if needed
+ce9f2344 config: Remove Updater from ota.mk
+9528bfe0 config: move to community builds
+
+
+=======================
+     2023/02/18
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+f4c919fb8 Revert "build: set custom fingerprint in ro.build.fingerprint too"
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+4cd70e7 common: sepolicy: Give QCOM TEE directory access to tmpfs
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+02ae0d9 SystemUIGoogle: Refactor Smartspace dagger stuffs
+
+* Repository: https://gitlab.com/mmtrt/vendor_xiaomi_everpal/commits/thirteen
+
+67044da Generet Vendor Tree
+
+
+=======================
+     2023/02/17
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+8149eea29d Settings: Remove DSU Loader if unsupported
+3feff5170f Settings: remove duplicate build number from firmware dialogue
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/tiramisu
+
+fa83ac14 Add function to get index mask from output channel mask.
+04ba6d73 Add AUDIO_FORMAT_APTX_ADAPTIVE_{QLEA|R4}
+22cb0e1f audio: Reserve audio format constant for APTX QLEA
+f03f29ee media: update path for vendor specific config files
+c848a332 Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/system/media into tiramisu
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+01bfab03 overlay: Set dynamic icon components for Clock and Calendar
+cb28c58e vendor: theme: AndroidBlackTheme: Turn more color components to black
+bf67dd8f GoogleConfigOverlay: Set default Call Redirection/Screening package to Google Dialer
+15817286 version: Update to 7.6.1 (Adobo)
+e4c27048 packages: Remove parallel space [1/3]
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+16845a7 SystemUIGoogle: Update smartspace to 13-QPR1
+
+
+=======================
+     2023/02/16
+=======================
+
+* Repository: https://github.com/mmtrt/device_xiaomi_everpal/commits/mix
+
+71054df everpal: Use MIUI power-off charging
+4cff797 everpal: Kill kpoc
+21cfc4c everpal: Enable Zygote Preforking
+46757b4 everpal: perf: Actually perform input boost on interaction hint
+b67887f everpal: perf: Improve interaction hint
+585c7cf everpal: perf: Use input boost to improve interaction hint
+381a218 everpal: Boost foreground to maximum when launching an app
+acacaba everpal: Allow raising sched_boost to 6 levels
+8584577 everpal: perf: Add interaction powerhint boosts
+5b867a7 everpal: configs: perf: Boost stune on app launch
+974e8a0 everpal: Import power and perf configs to device tree
+1bceb75 everpal: Drop the emmc fstab
+182a386 everpal: Set the arch variant to `armv8-2a-dotprod`
+f603703 everpal: Use the Correct CPU Variant
+61ec332 everpal: Add back the missing keylayout prop
+801b561 everpal: Remove references to the a2dp module
+eebf485 everpal: vibrator: Add Support for `awinic_haptic/9-005a/` nodes
+cd805d9 everpal: Create `/odm` logical partition
+e18004e everpal: Create `/system_ext` logical partition
+11b6682 everpal: Start Building and Shipping `vbmeta_vendor`
+0189de9 everpal: Kang Bluetooth Profiles from `pissarro` T
+70bd58e everpal: Set default the Bluetooth class of device The class of  device is a string with a list of uint8t values: 90,2,12
+a01837b everpal: Speed up the first boot
+359c388 everpal: Use dex2oat64 for better dexopt time Enable dex2oat64  usage on everpal.
+31285c4 everpal: Import recommended pm dex props
+80888e4 everpal: Cleanup System Properties
+06cec8a everpal: rootdir: Fixup /data/vendor/audiohal directories creation
+3c7e81e everpal: Move audio dump directory creation to SoC init rc
+2cb6146 everpal: Make mtkpower service part of `input` group
+479bd05 everpal: Build the IR HAL
+52bfdfa everpal: Import Missing Manifest Files
+93d353e everpal: Link camerahalserver service against VNDK 32 libutils
+710097c everpal: Link mtk thermal service against VNDK 32 libutils
+8cb02ce everpal: Drop boot hal entry from the manifest
+0259e77 everpal: aidl: vibrator: Implement indexed and duration based haptics
+f43cb3e everpal: aidl: vibrator: Rebrand to everpal and build it
+ff813ee everpal: aidl: vibrator: drop apex
+aa22145 everpal: aidl: vibrator: drop fuzzer
+7060b71 everpal: aidl: Import AOSP default vibrator HAL service
+f13fc60 everpal: Switch to AOSP AIDL Sensors Multihal
+21d8869 everpal: Copy missing `default_volume_tables.xml`
+cc55ddd everpal: Drop Useless vendor/*dlkm props
+11e6c1e everpal: Enable AIDL DRM Clearkey HAL
+22dd1f2 everpal: Switch Bluetooth Audio to AIDL
+830c774 everpal: Kill xiaomi misys
+5c50d5e everpal: lights: Remove ndk_platform backend. Use the ndk backend.
+cfb15a9 everpal: gnss: Remove ndk_platform backend. Use the ndk backend.
+463f272 everpal: mtkpower: Remove ndk_platform backend. Use the ndk backend.
+092b82b everpal: Build missing Power Library
+7bd4a3d everpal: Build Missing Light Library
+f97e985 everpal: Build Missing GNSS Library
+30a5669 everpal: Build sepolicy with broken namespaces
+b99fed3 everpal: Build `libpowerhal` as a module
+2fdf683 everpal: power: Use boost/mode checking logic from default impl
+f03b38a everpal: power: Implement Power AIDL Interface V2
+c495869 everpal: power: Check DT2W device before reporting as supported
+eb3e9df everpal: power: Scan input devices for eligible DT2W node It is no longer a surprise for anyone to see Xiaomi shipping the same device with different displays and different displays usually mean different touchscreen drivers.
+f63a95b everpal: power: Add support for event-based DT2W gesture control
+6e7d8f4 everpal: Build custom Power AIDL service library
+5f7281e everpal: Fix Xiaomi Vibrator Service
+9837049 everpal: Build broken elf files
+2b33ea9 everpal: selinux: Ignore Neverallows
+49dd3d0 everpal: Inherit MediaTek Common Vendor SEPolicy
+4f90b75 everpal: Add 8GB RAM dalvik-heap configs
+1668fc5 everpal: Add libinit for variants handling
+869084c everpal: Build Binder Packages
+5b949e9 everpal: extract-files: Use libhidlbase from vndk v32 for fingerprint service
+7880970 everpal: Use libutils-v32 for libmtkcam_stdutils.so
+e0893bd everpal: Patchelf C2 service to link against `libavservices_minijail`
+9f994bc everpal: Build `libavservices_minijail`
+92aca01 everpal: Link mtk_agpsd against V32 libcrypto
+7f7343f everpal: Link older libutils for PQ HAL
+ef8a5ae everpal: Import Prebuilt Kernel Modules
+0b67950 everpal: Stop Serial Console on boot
+b1699b3 everpal: Drop charge_logger service & binary
+441aeb4 everpal: Drop Useless mtk log
+47fafc4 everpal: Drop MTK AEE Support
+1de17e9 everpal: Replace ro.vendor.init.sensor.rc with full path
+c996012 everpal: Replace ro.vendor.rc with full path
+9bc0a6f everpal: Drop Prebuilt Toybox Binaries
+766813e everpal: Drop Prebuilt `libmtk_bsg`
+9d44ab9 everpal: Copy Required Permissions from Source
+f22ebdf everpal: Uprev WiFi HAL to 1.6
+0475129 everpal: Rename libwifi-hal.so
+8a60772 everpal: Build `hostapd` from source
+620b17d everpal: Build `wpa_supplicant` from Source
+78fcb88 everpal: Build some WiFi interfaces from Source
+c3be4fe everpal: Build some USB interfaces from Source
+9f92dd4 everpal: Build some Media interfaces from Source
+2e40f50 everpal: Build Light 2.0 interface from Source
+efeacad everpal: Build some GPS interfaces from Source
+2fb9bec everpal: Build Dumpstate interfaces from Source
+8804056 everpal: Build IR interface from Source
+0e9fca9 everpal: Build some Thermal Libraries from Source
+680a2ca everpal: Build some Sensors Libraries from Source
+1af35d0 everpal: Build Radio Interfaces from Source
+d902c15 everpal: Build Power Interfaces from Source
+9cb22b0 everpal: Build SoundTrigger Impl from Source
+a38ffda everpal: Build some Keymaster Libraries from Source
+bef329b everpal: Build the Health HAL from Source
+901a7ff everpal: Build the Gatekeeper HAL from Source
+5bcc197 everpal: Build some Display HALs from Source
+4eda9a8 everpal: Build the DRM (Clearkey) HAL from Source
+78f8787 everpal: Build the CAZ Lazy HAL from Source
+277bbcd everpal: Build some Camera Interfaces from Source
+00d5eaa everpal: Build some Bluetooth Blobs and Interfaces from Source
+de07886 everpal: audio: Drop Mi audio sounds
+5f678ec everpal: Switch to AOSP OSS Audio HALs
+ff93d03 everpal: Build some Audio Blobs from Source
+1cdc1b7 everpal: Drop 64 bit Audio Stack
+4d235ef everpal: Create Graphics Symlinks
+73075f5 everpal: Create Vulkan Symlinks
+235f27e everpal: Create Gatekeeper Symlinks
+8578d54 everpal: Import Public Library List
+dcfe94e everpal: InputManager: Exclude `awinic_haptic`
+7bf1c99 everpal: Import WiFi Configs
+d355ae1 everpal: Import Sensors' Configs
+5c3e380 everpal: Import Seccomp Policy Configs
+db70344 everpal: Import Media Configs
+9cd9763 everpal: Import Audio Configs
+6c41c45 everpal: Build the Boot HAL
+6a0d09d everpal: Import Initial Properties
+a82a560 everpal: Generate the FCM
+5a6aa26 everpal: manifest: Add missing Soter Entry
+096f158 everpal: Merge `manifest_dsds.xml` with the Device Manifest
+0450b35 everpal: Import the Compatibility Matrix
+0b17d4c everpal: Import the Device Manifest
+1cd47c0 everpal: Import Stock ueventd.rc
+3ebb803 everpal: Import Rootdir from Stock
+9473590 everpal: Inherit Vendor Makefiles
+0531afd everpal: Initial Proprietary File List
+939d305 everpal: Build Broken Dup Rules
+a293e06 everpal: Set VENDOR_SECURITY_PATCH to platform
+637a0b1 everpal: update-sha1sums: Handle line with opts.
+c2959ea everpal: update-sha1sums: Better handle line breaks.
+a714695 everpal: Format update-sha1sums.py with YAPF.
+e699b03 everpal: Add unpinning support to update-sha1sums.py script
+f23a526 everpal: Handle moved blobs in update-sha1sums.py script
+daf2e32 everpal: Add script to update sha1sums of kanged blobs
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+a953b2a09 bluetooth: audiocodecs: add 16 bit sample rate for APTX offloading
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+6915405871 AptX: use "legacy" apex name
+e1d331b866 Fix more tidy error
+77fdf75c05 Enable tidy for aptx and aptxHD
+e961e6972f Apply and fix clang-tidy on aptx and aptxhd
+2b9652f7c1 Add regression test for aptx
+65d8ee99f5 Link AptX and AptXHD encoder into Bt
+0ec76bd6d3 Apply format on aptx and aptxhd
+8345ba5990 Add AptX and AptXHD Headers
+f028d71324 Add encoder for aptX and encoder for aptX HD source code.
+f9ccb28176 Fix folder name
+a529b69600 Add aptx and aptxhd folder
+
+
+=======================
+     2023/02/15
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+0e173571b envsetup: Source vendorsetups after running roomservice in lunch
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+ac8a2ce2f soong: Add EVO_BUILD_TYPE to dumpvars
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+636f225 Aperture: Do not store photos captured via other apps
+be96723 Aperture: Insta hide secondaryTopBarLayout on camera mode change
+bb105d0 Aperture: Make SecondaryTopBarButton square
+42bc070 Aperture: Set SecondaryTopBarButton height to wrap_content
+dd63b4a Aperture: Remove OIS handling
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+84fab3c732 Global VPN feature [2/2]
+b2ba19a664 Settings: Add Default USB Configuration
+
+
+=======================
+     2023/02/14
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+264ee508 recovery: rewrite slot switch logic using bootcontrol APIs
+71b2dc58 recovery: add support for changing slots
+07c53beb recovery: display current filesystem when going to format
+9b563365 recovery: add the option to choose the filesystem for /data
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+9baba9b system: overlay: perf: Enable BoostFramework
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+a49561347 Support P010 with Gralloc2 on Gralloc1 passthrough
+3e70d4171 audio: Verify that hal implements get_audio_port before calling
+179df8a58 wifi: Add provision to create/remove dynamic interface(s).
+50fc169ce Mark android.hardware.security.dice as system_ext_specific
+69cc5c638 keymasterV4_0: Tags support for FBE wrapped key.
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+8458a89 fixup! GameSpace: Update takeScreenshot API in ScreenUtils
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/tiramisu
+
+5b752ea43 PermissionController: Always enable location accuracy feature
+14dbcc3f0 PermissionController: Enable usage timeline for all permission groups
+c203af5a2 SystemUI: Use new privacy indicators for location
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/tiramisu
+
+2c285d0 Handle key parameter conversion for FBE_ICE tag
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+b557f7d96 BACKPORT: Add bluetooth disable enhanced SCO connection
+b6baf01ea sepolicy: allow system_server to set tethering properties
+0b61caea8 Give mediaprovider_app mlstrustedsubject
+b31825e13 Allow ignore neverallows in user builds
+614dbdaaa fixup! private: Exempt system_app from adbd_config_prop neverallow
+63dc168ec private: Exempt system_app from adbd_config_prop neverallow
+13c251e8c sepolicy: do not include BOARD_PLAT_* sepolicy dirs
+ee0055237 sepolicy: Add sdcard_posix_contextmount_type attribute
+a964c2c8f sepolicy: Allow recovery to alter /
+9c418de17 sepolicy: whitelist recovery from node creation neverallow
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/tiramisu
+
+6ba338a1 Don't verify payload signatures in recovery
+7a50f1f2 update_engine: Always disable signature and downgrade checks
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/tiramisu
+
+fc7ee26 vold: Accept Linux GPT partitions on external SD cards
+fa9b96e Fix the group permissions of the sdcard root.
+7ae08a8 vold ext4/f2fs: do not use dirsync if we're mounting adopted storage
+d514815 vold: Mount ext4/f2fs portable storage with sdcard_posix
+c3f2642 vold: Honor mount options for ext4/f2fs partitions
+1659d57 vold: Support internal storage partitions
+40ed12a vold: Fix fsck on public volumes
+c7f54b7 vold: add support for more filesystems for public storage
+3f9b93a vold: skip first disk change when converting MBR to GPT
+3aaa38d Fix for CTS test CtsAppSecurityHostTestCases
+08768fa vold: Bring in more wrapped key changes
+dc61fd3 vold: Enable legacy support for wrapped key
+cb60675 system: vold: Use wrapped key for metadata encryption
+
+
