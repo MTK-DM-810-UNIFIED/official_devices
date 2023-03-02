@@ -1,0 +1,52 @@
+=======================
+     2023/03/02
+=======================
+
+* Repository: https://github.com/mmtrt/device_xiaomi_everpal/commits/mix
+
+34973da everpal: add cherishos build support
+1f66fef everpal: add codecs and wv drm service fixup
+
+=======================
+     2023/03/01
+=======================
+
+* Repository: https://github.com/mmtrt/device_xiaomi_everpal/commits/mix
+
+6348bd5 everpal: rro_overlays: use peak & min refresh rate controls
+0cd458c everpal: rro_overlay: disable burn in protection
+938a3b1 everpal: force enable adb on non eng builds
+4d47ef9 everpal: move nfc manifest under configs/vintf
+4d6605e everpal: move manifests under configs/vintf
+76dffeb everpal: move system|vendor props under configs/props
+e97e8e4 everpal: add evolutionx build support
+3c67088 everpal: add sparkos build support
+256d5d7 everpal: add lineageos build support
+6af76eb everpal: add arrowos build support
+ed9b56b everpal: Fix some package names
+a5ecdbb everpal: Build the OMX HAL
+8333377 everpal: Use RSA4096 key for the vbmeta images
+4232312 everpal: Remove unsupported flags from fstab
+fc9f782 everpal: fstab: Nuke the /cache mount point
+4533973 everpal: Switch to `config_show_refresh_rate_controls`
+c49955b everpal: Build missing tethering interface
+0143b19 everpal: Drop `excluded-input-devices.xml`
+109774e everpal: Import Keylayout Configs
+8bd306b everpal: Import Neural Networks blobs from `light` T
+f47a8bd everpal: perf: Reduce INTERACTION uclamp value down to 50%
+ca1ee80 everpal: Drop unneeded build info from the product makefile
+257bfdb everpal: libinit: Override `ro.boot.hardware.sku` as well
+1f2911f everpal: Move `SoterService` to `system_ext`
+da68401 everpal: Import NFC stack from `opal`
+034b1e2 everpal: Import Secure Element blobs from `opal`
+14c3590 everpal: Import stock APN configs
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+dfe56fbb9b5c SystemUI: QS customizations settings [1/2]
+80a1540e3169 PixelPropsUtils: Don't spoof Google Meet
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+fab9218 New Crowdin updates (#395)
+1b2da75 New Crowdin updates (#226-#393)
