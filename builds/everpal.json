@@ -1,17 +1,17 @@
 {
-    "datetime": 1677750085,
+    "datetime": 1678511063,
     "donate_url": "https://www.patreon.com/mmtrt",
     "error": false,
-    "filehash": "3188731a1115e7aa3dc2b0c764971f4b",
-    "filename": "evolution_everpal-ota-tq1a.230205.002-02272242-community-unsigned.zip",
+    "filehash": "b6c4fc789483e331ee53b0f4cdbd2619",
+    "filename": "evolution_everpal-ota-tq1a.230205.002-03111516-community-unsigned.zip",
     "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r3-official-evolution-x-7-0-for-redmi-note-11-nfc.4485855/",
-    "id": "39ad6e3a474f8ab73b66b0ecb409659bb2038b9fcab4f0b7e1205f56d26c6047",
+    "id": "bf67ef8c6d9775a56b679ab50a0ee02a5afca158170e9451a9527d73683e614b",
     "maintainer": "Taqi Raza(mmtrt)",
     "maintainer_url": "https://t.me/mmtrt",
     "news_url": "https://t.me/EvolutionXOfficial",
-    "size": 1957555426,
+    "size": 1975363170,
     "telegram_username": "mmtrt",
-    "url": "https://ghproxy.net/https://github.com/MTK-DM-810-UNIFIED/official_devices/releases/download/v2023-03-02-evox/evolution_everpal-ota-tq1a.230205.002-03021511-community-unsigned.zip",
+    "url": "https://ghproxy.net/https://github.com/MTK-DM-810-UNIFIED/official_devices/releases/download/v2023-03-11-evox/evolution_everpal-ota-tq1a.230205.002-03111516-community-unsigned.zip",
     "version": "Thirteen",
     "website_url": "https://evolution-x.org"
  }
