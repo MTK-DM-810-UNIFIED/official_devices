@@ -1,0 +1,36 @@
+=======================
+     2023/03/12
+=======================
+
+* Repository: https://github.com/mmtrt/device_xiaomi_everpal/commits/mix
+
+68c988e everpal: update evox specific overlays
+715ef03 everpal: add evox specific overlays
+4d7ca52 everpal: evox: target enable blur
+b9f5d1d everpal: rro_overlays: use peak & min refresh rate controls
+45e5a05 everpal: rro_overlay: disable burn in protection
+1cd3b41 everpal: force enable adb on non eng builds
+8cafef5 everpal: move nfc manifest under configs/vintf
+dd2d9a4 everpal: move manifests under configs/vintf
+9bcf888 everpal: move system|vendor props under configs/props
+cc4a5e9 everpal: add cherishos build support
+041a1c3 everpal: add evolutionx build support
+c88214f everpal: add sparkos build support
+282e4dd everpal: add lineageos build support
+6651505 everpal: add arrowos build support
+8340373 everpal: rro_overlays: Aperture: Configure additional camera framerates
+229cc01 everpal: Switch to AIDL NFC HAL
+364d568 everpal: Set correct channel mask for `BT SCO Headset Mic`
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+af6dbaa73732 Ignore AGPS toggle during user-initiated emergency calls
+54b1de000fa5 Remove sensitive info from SUPL requests
+d27bcd110583 New Crowdin updates (#418)
+0386ef6ff96d [SQUASH] SystemUI: Remove OOS style notification clear all button [1/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+6531aff New Crowdin updates (#226-#405)
+8c8d750 Evolver: Remove OOS style notification clear all button [2/2]
+
