@@ -1,0 +1,3 @@
+1.Fixed offline alarm
+2.Fixed video playback stutter
+3.Workaround some bluetooth bugs
