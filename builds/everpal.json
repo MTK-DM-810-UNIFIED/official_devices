@@ -1,17 +1,17 @@
 {
-    "datetime": 1690212945,
+    "datetime": 1690295225,
     "donate_url": "https://www.patreon.com/mmtrt",
     "error": false,
-    "filehash": "5049d2e90708054f4a22bd17907f5617",
-    "filename": "evolution_everpal-ota-tq3c.230705.001.c2-07242256-community-unsigned.zip",
+    "filehash": "f8f596807a662f0e7c38788297ca42aa",
+    "filename": "evolution_everpal-ota-tq3c.230705.001.c2-07252239-community-unsigned.zip",
     "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r3-official-evolution-x-7-0-for-redmi-note-11-nfc.4485855/",
-    "id": "9cd6e51f87d9fbad09f408d7a8b4f06be540a29de8d8d215cae44990dc4dc381",
+    "id": "e1f2c7ea4106198cd8ac89ebb15c47b5426fb15b8f1cc0d99d0e7fce6915095c",
     "maintainer": "Taqi Raza(mmtrt) and Weaponmasterjax",
     "maintainer_url": "https://t.me/sovietjax",
     "news_url": "https://t.me/EvolutionXOfficial",
-    "size": 1801476353,
+    "size": 1825403859,
     "telegram_username": "sovietjax",
-    "url": "https://github.com/MTK-DM-810-UNIFIED/official_devices/releases/download/evox-7.9.4-rc2/evolution_everpal-ota-tq3c.230705.001.c2-07242256-community-unsigned.zip",
+    "url": "https://github.com/MTK-DM-810-UNIFIED/official_devices/releases/download/rc4-fin/evolution_everpal-ota-tq3c.230705.001.c2-07252239-community-unsigned.zip",
     "version": "Thirteen",
     "website_url": "https://evolution-x.org"
  }
