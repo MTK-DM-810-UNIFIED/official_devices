@@ -1,0 +1,558 @@
+=======================
+     2023/08/18
+=======================
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+c1e0a93 everpal: Remove references to the a2dp module
+cc1b11a everpal: audio: Only use `mtk_bessound` instead misound
+2e9e4a4 everpal: Rework on Audio Configs
+74cb8c1 everpal: drop mi thermals for now
+c9c5f4f everpal: sepolicy: drop mi_thermald for now
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+0ae9f0835e14 SystemUI: Launch power menu from QS only if enabled
+93d9314dc154 base: Data icon style [1/3]
+239e5e14aca1 Only spoof packages installed by Aurora Store and modify new API
+ba4ac25ad633 All packages installed via Google Play Store
+347213d159e9 Unmount unusable partition instead of putting device into crashloop.
+4c21cd6a65d5 Fix invalid code link, update exception message
+7fd9341d9b15 Camera: Fix typos in CameraExtensionSessionImpl
+4e0960d86bf6 Usb: Fix incorrect mapping of port mode constants
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+83c27dc Evolver: Data icon style [2/3]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+69afb86b Themes: Data icon style [3/3]
+
+* Repository: https://gitlab.com/sd369888/vendor_xiaomi_everpal/commits/thirteen
+
+026edc3 Update everpal-vendor.mk
+e233b49 Delete aurisys_config.xml
+
+
+=======================
+     2023/08/17
+=======================
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+c898dc6 everpal: rro_overlays: Extend auto brightness adjustment frequency
+91daac6 everpal: overlay: Enable OTA app A/B perf mode by default
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+22831c9471e6 PixelPropsUtils: Partial spoofing improvement
+3184174b9971 SystemUI: Add SCREEN_GESTURE as a CameraLaunchSourceModel
+46fd8e88117a Prevent NPE and try to recover
+b58d1b258fd7 Avoid potential NPE when using DownloadManager
+cc6e304d2f6a BoostFramework: Kill logcat spam on devices without QPerformance
+fa834b1c386b BoostFramework: Guard it with overlay
+40296f7c876d OverScroller: Import BoostFramework.ScrollOptimizer
+308269bf0dff Filter multi-layer cases for pre-rendering
+73ef1a6adc4e perf: Add lock protection for initialization in ScrollOptimizer
+e994c386143f core: Port CLO's Framework Boost
+10d71f862ba5 Change Linkify to use defaultCountry if simCountryIso is empty.
+bdd43798f3d1 core: server: inputmanager: Check if input method is enabled before showing missing keyboard layout notification
+ff0a0a7929bc SystemUI: Resolve crash when updating control list services
+152887a989e1 apex: Prevent illegal state exception caused by GMS concurrent alarms
+22558ee2b706 GamesPropsUtils: Switch back BGMI to OnePlus 8 Pro
+5716c17d580a GamesPropsUtils: Switch Mobile Legends to Mi11TP
+4db00cc75b8c PixelPropsUtils: Refactor logic and cleanup
+3083c2541ce6 PixelPropsUtils: Update fingerprints to August 2023 release
+b6e17c449db9 PixelPropsUtils: Spoof all wallpaper packages to Pixel 7 Pro
+f0a969772c18 PixelPropsUtils: Set HARDWARE, ID values
+23c9d20d37ae PixelPropsUtils: Correctly spoof unstable process
+0a9c2665dc60 base: ApplicationPackageManager: Return early for Tensor check
+9cdacad29ab4 Fix possible NPE in StatusBarIconList causing bootloop
+44a06367c593 Camera: Bump up the extension jpeg processor blob size
+01e4f85f6d01 libs: PipTaskOrganizer: do not start fade out animation for pip if surfacecontrol leash is null
+20f578ded88f Toast: Perform text scrolling for long toast texts
+70b0130ffedf core: legacy toasts deserve rounded corners too
+1ecac91eaa43 core: Improve notification toast format and fix for apps < sdk 29
+d69e7343bf98 fixup! Match legacy toast view with SystemUI
+4470bc316dc6 SysUIToast: Remove restrictions on toast app icon
+ece7f99a703f SystemUI: Import more qs headers
+586c76636202 [IMPR] AudioService: focus listener: enable it when using external AudioFocus
+0156a7bcc866 always auto-grant permissions that have "normal" protectionLevel
+8b14c610c9dd Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/frameworks/base into tiramisu
+2e92012f56b5 [SQUASH] Reverts for A13 August 2023 security patches
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+d28a937 manifest: Track our own fork of external/faceunlock
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+8903571 New Crowdin updates (#226-#509)
+d64d3b5 Evolver: Changes for A13 QPR3
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+0617e5da5f New Crowdin updates (#341)
+
+
+=======================
+     2023/08/16
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+c0a749f common: sepolicy: Adapt to new sepolicy changes
+450d4c7 common: Audio: Inherit vendor configs only if they exist
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+9b8e2eb everpal: Kang Connectivity firmware from `a13x`
+0026757 fixup! everpal: Set correct channel mask for `BT SCO Headset Mic`
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/tiramisu
+
+4a9a7c172d RadioMessagingProxy: Fix sending CDMA IMS SMS
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+b2bb3863a1 Settings: CutoutForceFullscreen: Add "Show system" menu
+04e9eb357f Revert "Settings: Do not skip fp authentication for udfps"
+
+* Repository: https://gitlab.com/sd369888/vendor_xiaomi_everpal/commits/thirteen
+
+64cfbe4 everpal: Kang Connectivity firmware from a13x * The Bluetooth firmware from Samsung MTK devices seems   to include fixes for the new AOSP BT stack (Gabeldorsche).
+
+
+=======================
+     2023/08/15
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+0254c57 manifest: Track ParanoidGlyph
+551c107 manifest: Track Bluetooth Devices Helper from TheParasiteProject
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+fa1ce8be20 [SQUASH] Remove LTE only mode
+
+
+=======================
+     2023/08/14
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/tiramisu
+
+9002a8378e art: Add support for Cortex-A510
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+1f6cde7ce Add armv9-a arch variant.
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+c3bf62800 Use -march=armv9-a+nosve for Armv9-A arch variant
+c2b36a787 Introduce Cortex-A510 CPU variant
+86a4edfe7 Introduce armv9-a arch variant.
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+a0372a1 Update README.md
+b22d083 everpal: rro_overlay: fix up for status bar
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-20.0
+
+15fa387 thermal_hal: Update skin temperature threshold for sdm845
+
+
+=======================
+     2023/08/13
+=======================
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+2e60933 everpal: add missing tune2fs
+01f5891 Revert "Revert "Revert "Revert "Revert "Revert "Revert "everpal: set selinux to enforcing"""""""
+6519511 Revert "Revert "Revert "Revert "Revert "Revert "everpal: set selinux to enforcing""""""
+72d304f Revert "everpal: sepolicy: declare type blkid_exec"
+753299b Revert "everpal: sepolicy: move system_suspend to vndr"
+4572f4f everpal: sepolicy: address violation
+61ea1b3 everpal: sepolicy: remove non existing lines
+9de8589 everpal: sepolicy: declare type blkid_exec
+85efe8b everpal: sepolicy: address non-existing flags
+7f0a87e everpal: sepolicy: move vold to vendor
+2a750cf everpal: sepolicy: move media policy to vendor
+ca6e7a1 everpal: sepolicy: move system_suspend to vndr
+993a0ef everpal: sepolicy: move proc to vendor
+a7e0ef6 everpal: remove odrefresh related policy
+27f5a83 everpal: sepolicy: deal with denials
+b9c92de everpal: Don't use proximity sensor for DozeSensors
+f1f1b47 Revert "Revert "Revert "Revert "Revert "everpal: set selinux to enforcing"""""
+4f92f25 everpal: sepolicy: remove flags health check prop
+1405113 everpal: move sepolicy to vendor
+3446ef6 everpal: sepolicy: mtk audio hal fixup
+9e8b0cb everpal: sepolicy: remove duplicate
+021c86d everpal: sepolicy move mtk powerhal to vendor
+fc5518a everpal: update mtk audio hal sepolicy
+c3f2961 everpal: sepolicy: fix typo
+b02a80e everpal: sepolicy: fixup again
+7950f05 everpal: move system_suspend policy to private
+e813f40 everpal: sepolicy:  remove non-existing entries
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+3ba5cbffc6 New Crowdin updates (#335-#340)
+
+
+=======================
+     2023/08/12
+=======================
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+8a291e2 everpal: address system server denials
+c4c46c1 everpal: address charge only mode denials
+af29a27 everpal: allow system app to read from binder
+5dd3cb3 everpal: sepolicy: allow shell to run dmesg
+dcb25d8 Revert "Revert "Revert "Revert "everpal: set selinux to enforcing""""
+9de123c everpal: fix system_server denial
+747c8bf Revert "everpal: sepolicy: enforce neverallow"
+84f5564 everpal: sepolicy fix sysfs denials
+8ae6ac5 everpal: sepolicy: enforce neverallow
+4ac68e0 Revert "Revert "Revert "everpal: set selinux to enforcing"""
+0d5d9c3 Update README.md
+3fd3f2b Create README.md
+
+* Repository: https://github.com/PixelExperience/hardware_qcom-caf_bengal_gps/commits/thirteen
+
+b8f1c77 gps: Adapt folder to bengal
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+f996084 SystemUIGoogle: Sync with Evolution X changes
+b0188b6 SettingsGoogle: Sync with Evolution X changes
+96b2f12 SystemUIGoogle: Hide now playing icon if not clickable
+2fa1544 SystemUIGoogle: Rewrite AmbientIndicationContainer to kotlin
+fae0fd3 SystemUIGoogle: Trigger an ambient pulse on a new Now Playing track
+5b2b8cf pixel-framework: Remove Google Elmyra
+cfa816f SystemUIGoogle: Use system font for smartspace
+
+
+=======================
+     2023/08/11
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+0786836 vendor: media-legacy: Disable MediaC2 codec for SoC that don't support it
+afb3b68 vendor: init: Restore some lost changes
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+5228f00 Revert "Revert "everpal: set selinux to enforcing""
+177b9cf everpal: fix fingerprint denials
+33f9d53 Revert "everpal: sepolicy: declare end-of-file to deal with buggy build system"
+f5caf59 everpal: sepolicy: declare end-of-file to deal with buggy build system
+eae2d89 everpal: sepolicy: create public sepolicy
+d629de8 everpal: move fingerprint policy to vendor
+7d1cda1 everpal: sepolicy seperate blocks
+bad1451 everpal: fix multiple definition of blkid
+c2f1b2c everpal: sepolicy: seperate policies
+5f60425 everpal: remove duplicate fingerprint sepolicy
+6a3ecfc everpal: remove duplicate proc policy
+c72cba2 everpal: remove duplicate policy
+9b7abe8 everpal: sepolicy: add missing type proc_perfmgr;
+53e4e25 everpal: add missing type proc_cpufreq
+a125aae everpal: remove conflicting odrefresh policy
+561a99b everpal: sepolicy: remove violations
+6ee757e everpal: sepolicy: fixup!
+4362653 everpal: move sepolicy
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-20.0
+
+4b5515a extract-utils: Try to use arch specific vdex for JARs
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+951c9b82 overlays: Allow default notification listener access for ParanoidGlyph
+d6c501ac config: Disable Deep Press touch video heatmaps
+f5156cb8 version: Update to 7.9.7 (Pinakbet)
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+dec1877 fixup - googlebattery/reversecharging: Update service calls
+0b2d623 SystemUIGoogle: Fix BatteryControllerImplGoogle injection
+6f0e085 SystemUIGoogle: Sync forked dagger files with SystemUI
+4f18d0d googlebattery/reversecharging: Update service calls
+764ea50 SystemUIGoogle: Fix deprecated quality check
+20cd67f SystemUIGoogle: Replace outdated google-interfaces-lib
+a74ea25 SystemUIGoogle: BatteryDefenderNotification: Convert to aidl
+4f00bf5 Adaptive charging: Add google-hal checks and resolve possible regression
+5814b2e Implement adaptive charging based on Google battery HAL
+171054f interfaces: add google_battery AIDL interface
+
+
+=======================
+     2023/08/10
+=======================
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+4ecd688 everpal: indicate our cpu core model
+7db4373 everpal: fix up nfc permission
+40f7e86 everpal: sepolicy: fix sysfs paths
+4a519e5 everpal: remove duplicate Debugfs mount
+445449d everpal: sepolicy: recklessly fixup!
+80d3ac6 everpal: improve statusbar height padding
+8dc9191 everpal: overlay: Fix hyper orange night light
+c365db6 everpal: add missing sepolicy
+9110c3e everpal: remove duplicate sepolicy
+8b76fdf everpal: ignore neverallows for now
+423695a everpal: sepolicy: correct neverallows
+3c6ee85 everpal: sepolicy: drop duplicate
+52da979 everpal: sort out proc_ppm denial
+1a8fc0d everpal: Switch to skiaglthreaded renderthread backend
+
+* Repository: https://github.com/PixelExperience/hardware_qcom-caf_bengal_audio/commits/thirteen
+
+76884ec4 Merge tag 'LA.UM.9.15.r1-07500-KAMORTA.QSSI13.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio into thirteen
+60d6ddfa audio: post_proc: Use path-map instead TARGET_HALS_PATH
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+2bd7e19 SystemUIGoogle: Add missing permission for Smartspace
+c461c21 SettingsGoogle: Grab screen resolution drawables from cheetah-td1a.220804.031-factory-6152f6f3
+7f74aa0 SettingsGoogle: Follow monet color in settings icon like AOSP
+
+
+=======================
+     2023/08/09
+=======================
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+94d6274 everpal: disable fingerprint wake-and-unlock
+ec02452 everpal: sepolicy: allow system server to contact with init
+5b194e5 everpal: sepolicy: sort out perfmgr denials
+71f59b2 everpal: sepolicy: initial private sepolicy
+7da1f85 everpal: sepolicy: address hal_health_default denials
+24b566f everpal: sepolicy: address flag_health_check denials
+6bd7c42 everpal: sepolicy: fix sensor hal denials
+f4163d3 Revert "everpal: set selinux to enforcing"
+5b6bd85 everpal: Disable LE_EXTENDED_CREATE_CONNECTION command
+
+* Repository: https://github.com/PixelExperience/packages_apps_ParanoidGlyph/commits/thirteen
+
+df4f277 Update for crowdin
+
+
+=======================
+     2023/08/08
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/tiramisu
+
+af0d5a0ae3 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/art into tiramisu
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+dd05da290 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/bionic into tiramisu
+5b0557408 Add ability to build scudo-free 32-bit libc variant.
+3c6223c92 Fix mte build breakage.
+9af74930e Fix stack use-after-scope in async_safe_log.
+6fff00d20 Make tmpfile() respect $TMPDIR.
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+a37edb89 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/bootable/recovery into tiramisu
+3fbe2616 recovery: Simplify reboot recovery reason
+144383dc recovery: Clear BCB before rebooting to recovery
+8db3f682 recovery: Ask to reboot before installing anything after A/B update
+04287c03 recovery: Add support for touch rotation
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+9c80c99b5 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/build into tiramisu
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+3f6bac6 everpal: sepolicy: initial rules for batterysecret
+98e32d5 everpal: switch to source provided audio service hal
+ec690be everpal: enforce debugfs restrictions
+c85f8af everpal: enable updatable apex also confirm changes on boardconfig
+1ffb280 everpal: enable some seclabels We are finally enforcing, so enable these to reach our final goal.
+4705638 everpal: set selinux to enforcing
+041a7d7 everpal: Initial vendor SEPolicy
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+640c64158c Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+686d6a6256 libcameraservice: extend support for Oppo Camera
+50bb9968ae libcameraservice: Guard miui camera workarounds
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_net/commits/refs/heads/tiramisu
+
+f46a193 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/frameworks/libs/net into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+aec35736c7 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/frameworks/native into tiramisu
+5dcc58f8d6 [SQUASH] renderengine: Remove glass blur effect [2/2]
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/tiramisu
+
+ffde0b4f9b Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/frameworks/opt/telephony into tiramisu
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+d14b38111 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/hardware/interfaces into tiramisu
+615e67371 compatibility_matrices: Allow radio.config@1.0 till target-level 5
+
+* Repository: https://github.com/Evolution-X/hardware_libhardware/commits/refs/heads/tiramisu
+
+be1ea686 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/hardware/libhardware into tiramisu
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+81e415f Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/manifest into tiramisu
+34ade43 Manifest for Android 13.0.0 Release 74 (TQ3C.230805.001.B2)
+14e31a7 Manifest for Android 13.0.0 Release 73 (TQ3C.230805.001.A4)
+922ae7a Manifest for Android 13.0.0 Release 72 (TQ3C.230805.001.A3)
+
+* Repository: https://github.com/Evolution-X/packages_apps_ManagedProvisioning/commits/refs/heads/tiramisu
+
+a48de8ba Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/apps/ManagedProvisioning into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+f54b8c7b Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/apps/Nfc into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+0bff520b Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/apps/ThemePicker into tiramisu
+3fa8f110 Fix permissions xml and provider access
+4d31bd20 Adapt dummy recents wallpaper provider for QPR3
+
+* Repository: https://github.com/MTK-DM-810-UNIFIED/packages_apps_Updates/commits/tiramisu
+
+40a8255 Merge branch 'Evolution-X:tiramisu' into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_WallpaperPicker2/commits/refs/heads/tiramisu
+
+390872b6 Add null check for effectsController
+625b15ab Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/apps/WallpaperPicker2 into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+ad3f069d8 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/modules/Connectivity into tiramisu
+85d0c1868 Catching IllegalStateException while device is going to shutdown
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/tiramisu
+
+6265d810a Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/modules/Permission into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/tiramisu
+
+90b99c9785 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/modules/Wifi into tiramisu
+6ae40b3a41 config: Allow Settings or SUW to connect to insecure Enterprise networks
+
+* Repository: https://github.com/Evolution-X/packages_modules_adb/commits/refs/heads/tiramisu
+
+a5ed00ed Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/modules/adb into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/tiramisu
+
+f4e9962 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/modules/common into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/tiramisu
+
+1a196d31 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+85a3d399f Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+20adaae46 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/services/Telecomm into tiramisu
+6980a0bd5 Catch IllegalStateException in Telecom when the Bluetooth process is down
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/tiramisu
+
+ddff76086 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/services/Telephony into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_apex/commits/refs/heads/tiramisu
+
+ec4aa93d Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/apex into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/tiramisu
+
+64106990 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/extras into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_libhidl/commits/refs/heads/tiramisu
+
+816d5d8 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/libhidl into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_memory_lmkd/commits/refs/heads/tiramisu
+
+490f51c Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/memory/lmkd into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/tiramisu
+
+4216850 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/security into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+e39fb643e Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/sepolicy into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/tiramisu
+
+5a62c03 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/vold into tiramisu
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+e9e581c gms: Build Cinematic Wallpapers for Pixel 6 and newer
+
+* Repository: https://gitlab.com/sd369888/vendor_xiaomi_everpal/commits/thirteen
+
+b199ef6 Revert "Drop `seclabel` option"
+
+
+=======================
+     2023/08/07
+=======================
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+0ea09b9 everpal: rro_overlay: update maintainer info
+c69f5ac everpal: evolution: disable blur
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+54fab97 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+538df8dd Fix Android Beam
+
+* Repository: https://gitlab.com/sd369888/vendor_xiaomi_everpal/commits/thirteen
+
+a9e093e Replace aurisys_config.xml Remove buggy misound and use bessound only
+
+
+=======================
+     2023/08/06
+=======================
+
+
+=======================
+     2023/08/05
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+6431f01760 Settings: Update 90hz string replace hack in displayPreference
+3f9bdf14de Settings: Fix findPeakRefreshRate logic
+
+
