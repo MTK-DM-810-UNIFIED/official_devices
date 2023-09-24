@@ -1,0 +1,855 @@
+=======================
+     2023/09/24
+=======================
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+cd35aa4 Revert "Revert "everpal: Build GNSS service from source""
+31c952f Revert "everpal: config: copy audio policy volume from aosp"
+b2870ec Revert "Revert "everpal: powerhint: Remove SchedBoost configs""
+973fe0a everpal: fix missing ","
+cb49f56 everpal: switch to skiagl threaded render
+6ce1218 everpal: enable pocket mode
+03707b1 everpal: parts: import Xiaomi Custom pocket mode service
+bc82fa4 Revert "everpal: remove duplicate kernel copy"
+5d9507e Revert "everpal: Enable updateable APEX"
+720e3a3 Revert "everpal: bc: remove selinux permissive"
+2684eff everpal: remove duplicate kernel copy
+33f6695 everpal: set kernel img name
+dba8ab1 everpal: include dtb in boot
+e9d98d7 everpal: Move prebuilt kernel to another repo
+816c149 Revert "everpal: Rename audio service HAL"
+98ff2b1 Revert "everpal: add aidl mtk libperfmgr"
+b56695b Revert "everpal: Build mediatek thermal HIDL"
+ebcedd4 Revert "everpal: move thermal to rootpath"
+f9d5259 everpal: use source-provided usb service
+f6e844f everpal: Add vendor_dlkm fs type
+defd5c7 everpal: update powerhint from rosemary
+9cd7255 Revert "everpal: powerhint: Remove SchedBoost configs"
+74c0d6b everpal: import doze settings from surya
+a775908 everpal: rro_overlays: Set config_sustainedPerformanceModeSupported
+c465b34 everpal: update overlay
+e086641 everpal: bump powerhal version
+8538f8f everpal: build aperture
+41313dd everpal: build more services and include xiaomi hardware namespace
+124e92a everpal: Create `/vendor_dlkm` logical partition
+c8e3f20 everpal: copy vendor_dlkm files to corresponding partition
+886d9bb everpal: cleanup makefiles
+2776319 everpal: drop google codecs
+8ed885d everpal: purge ROM specific overlays
+1ddf3b0 everpal: drop IFAA
+77fbff6 everpal: build OSS alarm for PoweroffAlarm
+d70ab07 everpal: Include OTA updater
+a444fb3 everpal: drop smart charging
+5b71f50 everpal: import fmjni from stock
+f5e2d09 everpal: remove short antana support
+906e8d5 everpal: rro_overlay: misc fixup for battery health and smart charging
+5aafb10 everpal: rro_overlay: update screen brightness from "sweet"
+f11b552 everpal: perfmgr: Add in TOUCH hints to INTERACTION hints
+c5b8090 everpal: Disable VSync for CPU rendered apps
+e2f0244 everpal: Use speed tuning for performance critical applications
+259a918 everpal: overlay: configure SQLite to operate in MEMORY mode
+6cb3788 everpal: Fix Bluetooth controller voltage
+faeb842 everpal: update statusbar height again
+6409b7f everpal: disable boost framework
+e17573d everpal: rro_overlays: Extend auto brightness adjustment frequency
+08173a8 everpal: overlay: Enable OTA app A/B perf mode by default
+ff3d142 fixup! everpal: Set correct channel mask for `BT SCO Headset Mic`
+c2cb66a Update README.md
+c59c291 everpal: rro_overlay: fix up for status bar
+ea808ea Update README.md
+4a74ec5 Create README.md
+0ebec49 everpal: indicate our cpu core model
+7db6b50 everpal: improve statusbar height padding
+4ad588c everpal: overlay: Fix hyper orange night light
+9217d9d everpal: Disable LE_EXTENDED_CREATE_CONNECTION command
+2e1c332 everpal: remove useless props
+f2e0e89 everpal: patch mi_thermald to fix throttling
+8ac6075 Update evolution_everpal.mk
+2ece91c evolution: add maintainer string
+f5d8456 everpal: parts: Fix compilation for QPR1 merge
+1e1363d everpal: parts: Refresh rate utils housekeeping
+74ee0ad everpal: parts: Import XiaomiParts for refresh rate control
+cbba0b8 props: spoof miui
+f7abebe Build FMRadio
+cc9d9de Revert "everpal: libinit: drop safetynet workarounds"
+76d4fd6 everpal: Add kernel deps for EvolutionX
+6d7dd82 Try to fix sfps wakeup issue
+ea0cf65 Add more evox framework overlay
+7264332 Fix batteryhealth in evox
+eb48c77 everpal: rollback evox specific overlays to rro_overlays
+f155ba8 everpal: overlay-evolution: remove duplicate lines in overlay
+29a68ca everpal: update evox specific overlays
+c70ebb3 everpal: add evox specific overlays
+356c508 everpal: Update Power Profile from MIUI 14
+bb1618d everpal: Build GNSS service from source
+4665bd6 everpal: copy recovery init to recovery root path
+3d22d37 Revert "everpal: Build first stage ramdisk as a package"
+a3e8b09 everpal: powerhint: adapted changes from cannon
+2953594 everpal: Set swappiness to 60
+073a0e2 everpal: Add back debug.sf.disable_backpressure
+b219a5f everpal: Drop GL comp backpressure prop
+3bf6ad1 everpal: add mediatek_wlan in device tree
+7d39415 everpal: Drop lmkd, dalvik and memory props
+8c147e8 everpal: remove IO read_ahead_kb tune
+9de79d5 everpal: audio: add missing audio_policy.conf
+7021480 everpal: config: copy audio policy volume from aosp
+d1287f8 everpal: Disable A2DP offload support
+e3e4483 everpal: Be sure to build vndservicemanager
+1b21983 everpal: Import hidl fingerprint hal
+c232fee everpal: powerhint: Drop PM QoS latency boosting
+4473f73 everpal: Build dummy libmtkperf_client library
+e58ad87 everpal: Ensure nonblocking ffs is disabled everywhere
+ab2e7fc everpal: Disable nonblocking_ffs to avoid recent crashes with adbd
+4615d71 everpal: move thermal to rootpath
+057ad9b everpal: Rename audio service HAL
+de37f0b everpal: Build mediatek thermal HIDL
+b06e747 everpal: Build Wi-Fi stack from source
+92d7973 Revert "everpal: proprietary-files: remove 32bit camera libs not needed we use 64bit"
+f03a98f everpal: proprietary-files: remove getgameserver, testgameserver
+2ba6b16 everpal: proprietary-files: remove 32bit camera libs not needed we use 64bit
+e937c4e everpal: proprietary-files: remove factoryinterface, ata, mmigroup
+b04faa8 everpal: props: system.prop: update sf app duration values from evergo - v14.0.2.0.TGBINXM
+2519b90 everpal: props: vendor.prop: update sf high fps values from evergo - v14.0.2.0.TGBINXM
+b0f524a everpal: rootdir: update init files from evergo - v14.0.2.0.TGBINXM
+94897be everpal: configs: update media audio perf from evergo - v14.0.2.0.TGBINXM
+82093be everpal: proprietary-files: sync blobs list from evergo - v14.0.2.0.TGBINXM
+d8adb09 everpal: proprietary-files: remove voicecommand bloat
+a72507a everpal: Build `init.recovery.mt6833.rc` as a package
+d8a6a30 everpal: Drop useless init scripts
+be0d177 everpal: Drop some audio configs
+2010b08 everpal: Import missing `bluetooth_offload_audio_policy_configuration.xml`
+61a848b everpal: Build first stage ramdisk as a package
+c06f063 everpal: media: Include video codecs
+df5692f everpal: media: Include c2 media codecs
+517d808 everpal: props: add sf vsync flags for high fps in vendor.prop
+05105cc everpal: props: add missing debug.sf* from system.prop
+70a39e3 everpal: update ims stack from light - V14.0.2.0.TLSMIXM
+4f20db8 everpal: bypass safetynet even if we have permissive selinux
+a4c039f everpal: add nodes to hide Magisk in banking apps
+d683f85 everpal: props: add bluetooth operating voltage
+c756562 everpal: rro_overlays: move bluetooth operating voltage to power_profile
+
+* Repository: https://gitlab.com/sd369888/vendor_xiaomi_everpal/commits/thirteen
+
+a31fe29 everpal: update agps
+bd804ed Revert "Include Fixed lib for wide cam"
+0fba30b Include Fixed lib for wide cam
+ba4bd49 Replace mi_thermald patched due to throttling
+72de1c9 Update file everpal-vendor.mk
+7f65e5a move jni to correct location
+244a947 add product package
+c3105e1 Fix up fm jni name
+d2441da add FM
+
+
+=======================
+     2023/09/23
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+e669016 perf: kalama: Do not allow foreground tasks to run on CPU7
+88f68c6 vendor: media-legacy: Allow to use a custom c2_manifest_vendor.xml
+ecaea5e common: Update properiatory files list
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+6115303 everpal: audio: drop bt legacy hal, a2dp offload
+a7c3e7a everpal: sepolicy: add system_suspend
+f1a7493 everpal: sepolicy: update wakeup nodes
+f5ccea8 everpal: sepolicy: add hal health default
+2f8c48a everpal: sepolicy: add health nodes
+4ce0faa everpal: sepolicy: add missing wakeup nodes
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+be1aa3105280 Revert "SystemUI: Tell user when face unlock detection is running"
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+18af8b3 manifest: Track frameworks/opt/colorpicker from LOS
+3accedb manifest: Track external/dtc from LOS
+
+
+=======================
+     2023/09/22
+=======================
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+4831c86 everpal: drop ximi charger binary
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+c421c10f5b90 SystemUI: Resolve crashes caused by allowing the reinflation of SystemUI.
+a19ef79af214 Reticker: Bump to v1.1
+0fff433c5a6d SystemUI: refresh clock font when system font changes
+f809c6691134 Bubbles: Prevent one handed callbacks from being delayed
+d614dfb2b92b Add keylayout for Xbox Wireless Controller
+f3b514a3636e Add PS5 controller PID to Alsa manager block list.
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+5177164 Evolver: Disable Reticker by default and remove landscape only option
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commits/refs/heads/lineage-20.0
+
+3e200da st-hal-ar: Guard on oss sthal flag
+
+* Repository: https://gitlab.com/sd369888/vendor_xiaomi_everpal/commits/thirteen
+
+3703805 everpal: sync proprietary-files
+c21f9ec everpal: sync proprietary-files
+
+
+=======================
+     2023/09/21
+=======================
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+5a296fb everpal: extract-files: drop patching seclabel of batterysecret
+d941027 everpal: Pull necessary thermal blobs
+8d812a7 everpal: rootdir: Fix backlight on charger
+f59608f everpal: Support AOSP charger animation
+443d930 everpal: sepolicy: add aosp audio hal default
+b5fe140 everpal: rootdir: cleanup stock light hal changes
+43811ee everpal: Switch to Xiaomi lights AIDL
+31a10d4 everpal: Enforce android-S new launch debugfs restrictions
+d91019b everpal: sepolicy: address mtk_hal_sensors denials
+e133269 everpal: sepolicy: update powerhal
+1c95feb everpal: sepolicy: add fingerprint nodes
+89239bf everpal: sepolicy: add missing mali node
+3cd5005 everpal: sepolicy: add mtkpower stub service to call powerhal
+ec603a1 everpal: sepolicy: update fp changes from camellia
+f20ab9c everpal: sepolicy: change mi_thermald prop
+9fcf946 everpal: sepolicy: Allow mi_thermald to read sysfs
+f58e257 everpal: sepolicy: Remove unsecure rules from mi_thermald policy
+e586cda everpal: sepolicy: add batterysecret
+0d1af16 everpal: sepolicy: add palm sensor
+57c6bc2 everpal: sepolicy: add ximi fp hal
+8356d8f everpal: sepolicy: add mtk libperfmgr
+b7afaae everpal: sepolicy: add elliptic sensor
+428f0c7 everpal: sepolicy: add lighthal
+7d4e19a everpal: sepolicy: add custom sensor multihal
+8e50ae9 everpal: bc: remove selinux permissive
+1edb8e9 everpal: rootdir: init: drop setup wizard hacks
+2cccd1e Revert "everpal: add nodes to hide Magisk in banking apps"
+70bae6c Revert "everpal: bypass safetynet even if we have permissive selinux"
+1ae4839 everpal: sepolicy: Address some camera and fingerprint denials
+4e9a1e9 everpal: sepolicy: Fix paths
+2799cd4 everpal: sepolicy: Label FPC fingerprint interfaces
+890f4c3 everpal: sepolicy: Address nfc denials
+8fbbca7 everpal: sepolicy: Fix mi_thermald property violations
+13f3812 everpal: sepolicy: Resolve mi_thermald denials
+07fc7d2 everpal: sepolicy: Define thermal_engine prop
+9817fba everpal: sepolicy: Address and cleanup mi_thermald denials
+a064ea8 everpal: sepolicy: Address mi_thermald sepolicy denials
+284f215 everpal: Initial vendor SEPolicy
+66ec6c4 everpal: add aidl mtk libperfmgr
+4dda47f Revert "everpal: device: switch to xiaomi libperfmgr"
+3cac505 Revert "everpal: powerhint: fix powerhal paths for xiaomi libperfmgr"
+54925e1 everpal: Disable configstore
+89bed25 everpal: Build VBMeta image with --set_hashtree_disabled_flag
+870c755 everpal: Relax timers for automatic refresh rate switching
+aef55a4 everpal: props: Add dynamic display
+2d1d227 everpal: Add sf threshold of next vsync prop from Pixel
+fd73bbc everpal: Set swappiness to 60
+9eead3a everpal: remove IO read_ahead_kb tune
+17cc423 everpal: rootdir: Boot time tuning
+620020e everpal: audio: Set correct channel mask for "BT SCO Headset Mic"
+aedd977 everpal: powerhint: add missing EXPENSIVE_RENDERING of GPUSchedPeriod
+606c63b everpal: powerhint: fix powerhal paths for xiaomi libperfmgr
+fe97545 everpal: powerhint: Increase lowest frequency for each cluster
+85c7276 everpal: Unset BOARD_VNDK_VERSION
+6cf8b22 everpal: Unset DEXPREOPT_GENERATE_APEX_IMAGE
+e4735ab everpal: build libstagefright_softomx_plugin
+d098069 everpal: drop building omx service and media.c2
+d9b2423 everpal: device: add missing pkgs needed by android.hardware.media.c2@1.2-mediatek
+0690f6b everpal: Enable updateable APEX
+2ae66ad everpal: Enforce RRO for all overlays
+39141ad everpal: props: organize ims, keymaster
+787851c everpal: props: drop vibrator hal props
+4202021 everpal: props: organize bt stack
+7433202 everpal: drop InCallService since its moved to hw/mtk repo
+ed1c0dc everpal: Build dummy libmtkperf_client library
+8460ef7 everpal: device: build vendor.xiaomi.hardware.fingerprintextension
+7a6980d everpal: device: switch to xiaomi libperfmgr
+7dec7ae everpal: Add `hardware/xiaomi` into the Soong Namespaces
+4e050cc everpal: proprietary-files: organize
+cb17ff6 everpal: Use `enable` instead of `start` for Neural Networks service
+838a363 everpal: Switch back to AOSP bootctrl
+1556fea everpal: Switch to prebuilt libwifi-hal
+a36c230 everpal: Switch to Pixel thermal service
+5e4ca4f everpal: drop old thermal hal
+3876bfc everpal: copy media and seccomp files in single command
+c8a0e40 everpal: sensors: Add hals.conf as a required prebuilt
+a30645a everpal: Ship MediaTek cgroup/task_profiles configuration
+180a19d everpal: media: drop media codecs mtk video from device tree
+7fe946a everpal: media: move mtk codec configs to device tree
+4292c72 everpal: media: use stock media_codecs config
+49866ac everpal: device: build overlay
+38e530f everpal: rro_overlays: Pulse doze on pickup
+bf18fec everpal: sensors: Standardize xiaomi pickup sensor
+18308be everpal: sensors: Updated multihal to use new sensors AIDL interface.
+c7705ca everpal: sensors: Import 2.X sensors hal proxy
+90248db everpal: sensors: Provide unique vintf manifest and init rc names
+ded6d0e everpal: sensors: Avoid target name conflicts
+5cd7c9d everpal: Import 2.1 sensors multihal
+55e89df everpal: rootdir: Consolidate connectivity configs and clean up
+bd7b790 everpal: rootdir: Drop ATM related init triggers
+def48b9 everpal: configs: add stock audio policy configs
+b1547cd everpal: device: don't use default volume tables, audio policy volumes from aosp
+7bc694b everpal: Drop MTK network optimization stack
+7e6a574 everpal: configs: vintf: Declare memtrack AIDL in FCM
+70ff916 everpal: Switch to new AIDL memtrack HAL
+5342b4a everpal: overlay: Configure PowerOffAlarm overlays
+b7ec020 everpal: configs: gnss: Enable some params for AOSP SUPL requests
+e64f656 everpal: Import GNSS main config for modifications
+f6745ff everpal: rro_overlays: Set config_sustainedPerformanceModeSupported
+a146abd everpal: copy recovery init to recovery root path
+73aeede Revert "everpal: Build first stage ramdisk as a package"
+b8f504a everpal: proprietary-files: remove gbe service init
+d18dd1b everpal: powerhint: adapted changes from cannon
+b242221 everpal: powerhint: Decrease launch boost to 3sec
+eef3b60 everpal: powerhint: Remove SchedBoost configs
+c4ff359 Revert "everpal: enable ro.hwui.render_ahead and set it to 10 frames"
+c8dfa6e everpal: Copy default cacerts from AOSP
+55591b6 everpal: Move modules to the kernel repo
+11138d8 everpal: Move prebuilt kernel to another repo
+e0b6add everpal: config: props: move media props from system to vendor
+4d9ce4a everpal: add mediatek_wlan in device tree
+028f60c everpal: audio: Only use mtk_bessound
+95e88b8 everpal: move aurisys_config to device tree
+856c965 everpal: Don't mount TraceFS twice.
+d508e13 everpal: rootdir: Drop unused blobs in AOSP
+5ac11ac everpal: Remove vendor RenderScript implementation.
+9b5bb2b everpal: Enable LZ4 compression for ramdisks
+5e2f966 everpal: props: gamedriver remains
+8cec851 everpal: Set up display color compositions
+1074fbe everpal: audio: add missing audio_policy.conf
+fb5ef1e everpal: config: copy all xml files in single cmd
+52a70ff everpal: config: copy audio policy volume from aosp
+3508c5f everpal: configs: audio: drop loading a2dp in audio policy
+14631c2 everpal: Disable A2DP offload support
+a480f42 everpal: move aidl light hal to aidl dir
+bb773f5 everpal: Build awinic vibrator
+144ed83 everpal: Be sure to build vndservicemanager
+1476c01 everpal: power: Adapt to pixel power HAL
+85fab42 everpal: power: Import power HAL extension
+c04dea2 everpal: perf: fix bigcluster max freq
+4812d82 everpal: proprietary-files: remove mtkpower remains
+9770d34 everpal: build libcodec2_soft_common
+8eee483 everpal: Initialize power HAL when boot is completed
+04ea276 everpal: powerhint: Drop PM QoS latency boosting
+9afe551 everpal: Kang powerhint from MT6768
+3165d9e everpal: Build stub mtkpower service
+be303d7 everpal: Source build mtkpower interfaces
+bc23268 everpal: Drop MediaTek PowerHAL
+7807b00 everpal: Switch to MediaTek libperfmgr
+8278fe6 everpal: Build dummy libmtkperf_client library
+e563d42 everpal: Ensure nonblocking ffs is disabled everywhere
+9a3ab9e everpal: Disable nonblocking_ffs to avoid recent crashes with adbd
+121a4a8 everpal: dependencies: use hardware/mediatek path
+b443919 everpal: move thermal to rootpath
+da9b7ab everpal: device: rename hardware/xiaomi to hardware/mediatek
+07d604e everpal: device: remove IFFA
+9963ffe everpal: proprietary-files: remove stock wifi hal remains
+8349ece everpal: dependencies: use LineageOS/android_hardware_mediatek
+5654298 everpal: remove power aidl
+197051c everpal: Build PowerOffAlarm
+4dfa662 everpal: remove bootctrl, libmtk_msg
+9029284 everpal: bc: Add BOARD_HAS_MTK_HARDWARE guard
+af5387d everpal: remove previous hidl wifi
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+b925dfde4f7f Revert "base: Allow setting wake for notification separately from doze [1/2]"
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+b80bc79 Aperture: Update CameraX to 1.4.0-alpha01
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+3ab0145 New Crowdin updates (#514)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+1b212e2607 Revert "Settings: Allow setting wake for notification separately from doze [2/2]"
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+3a40465 gms: Added tangorpro Velvet
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+bd170bb SettingsGoogle: Sync with Evolution X changes
+bac63d8 SystemUIGoogle: Sync with Evolution X changes
+51924c9 SystemUIGoogle: googlebattery: rework system feature check sequence
+
+* Repository: https://gitlab.com/sd369888/vendor_xiaomi_everpal/commits/thirteen
+
+2cd8cf4 everpal: sync proprietary-files
+
+
+=======================
+     2023/09/20
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+e87bd14 vendor: media-legacy: Build android.hardware.media.c2 1.2 vendor interface
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+9b8998812ffc services: Only ever apply cutout to internal displays
+b5cba88ca207 base: Add minimal support for Richtap vibrations
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+ba31d10 Evolver: Add strings for showing fastcharge status summary
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+38fa50a483 Settings: Implement a dynamic summary that shows fastcharge status
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+3cd6a262 apn: Add Mint Mobile
+5dd13b84 prebuilt: Add prebuilt vendor.aac.hardware.richtap.vibrator
+e8ddca6f kernel: Use pahole from Google prebuilts
+
+
+=======================
+     2023/09/19
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+514e7a584 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/build into tiramisu
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+5bea8f5 vendor: media: Build android.hardware.media.c2 1.2 vendor interface
+db49da7 vendor: gps: Build android.hardware.gnss AIDL vendor interface
+b10a3dd vendor: audio: Build vendor.qti.hardware.AGMIPC@1.0.so vendor interface
+7269a6e vendor: audio: Build libsndcardparser
+1671d08 dlkm: Use separate modules list for recovery
+22985c4 vendor: charging: Add soong namespaces
+839f19e vendor: Drop 32bit libs from >=5.10 components
+362d0c9 common: alarm: Add manifest entry
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+66767786bf Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+e42142cc7cb9 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/frameworks/base into tiramisu
+cc123fef034c PixelPropsUtils: Update fingerprints to September 2023 release
+4b63f36a2457 SystemUI: Pass touch events to pulsing gesture listener only if dozing
+af0226b848d3 SystemUI: Move DT2S from PulsingGestureListener
+7bbdf5f5375a display: Handle zero auto brightness adjustment
+06c6f3831c71 BatteryStatsImpl: Fix divide by zero error
+dc330b62d06b fwb: silence handwriting error spam
+c183950287e7 New Crowdin updates (#464)
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+9c66f4edb8 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/frameworks/native into tiramisu
+
+* Repository: https://github.com/LineageOS/android_frameworks_opt_colorpicker/commits/refs/heads/lineage-20.0
+
+9a5f228 Migrate to androidx
+
+* Repository: https://github.com/LineageOS/android_hardware_lineage_compat/commits/refs/heads/lineage-20.0
+
+bfad08e compat: Add libcomparetf2 shim
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+44b113a Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/manifest into tiramisu
+ed48795 Manifest for Android 13.0.0 Release 82
+259db42 Manifest for Android 13.0.0 Release 81
+4ca496b Manifest for Android 13.0.0 Release 80
+06e1764 Manifest for Android 13.0.0 Release 79
+611206b Manifest for Android 13.0.0 Release 78
+9b9bfd0 Manifest for Android 13.0.0 Release 77
+53ab5fa Manifest for Android 13.0.0 Release 76
+1ecb353 Manifest for Android 13.0.0 Release 75
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+6de5535 Aperture: Don't pass `repository` unnecessarily
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+422c1085e1 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/apps/Launcher3 into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+88c19ba4 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/apps/Nfc into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+6613e8cdb0 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/apps/Settings into tiramisu
+9aa26fd73a fixup! Wi-Fi timeout feature
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+c57d8e03c Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/tiramisu
+
+0f96f09ce Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/services/Telephony into tiramisu
+
+
+=======================
+     2023/09/18
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+2edbe9a Aperture: Use composite action for running builds
+45a6690 Aperture: Update ZXing to 3.5.2
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+5cd58253 kernel: Allow to limit the used .dtb files for the final DTB image
+5dfc6da7 kernel: Include DTBOs from OEM/ODM folder in base DTB
+
+
+=======================
+     2023/09/17
+=======================
+
+* Repository: https://github.com/dm700-devs/device_mediatek_sepolicy_vndr/commits/thirteen
+
+2e8ef09 treewide: Completely drop `mtk_hal_audio` type
+4acedfd sepolicy: basic: non_plat: Label /class/thermal sysfs
+d07f16e sepolicy: basic: non_plat: Label AIDL MediaTek USB service
+a2e1ff9 sepolicy: basic: non_plat: Allow communication between mtk_hal_power and hal_power_default
+87ade40 sepolicy: basic: non_plat: Share PowerHAL property for libperf and mtkpower
+
+* Repository: https://github.com/weaponmasterjax/device_xiaomi_everpal/commits/mix-evox-temp
+
+da81c14 everpal: extract-files: merge multi arch dep patching into single command
+6651730 everpal: rootdir: Remove bypass USB mode
+1f6b7d1 everpal: Build USB service from source
+5192d7b everpal: Build mediatek thermal HIDL
+17d30c3 everpal: Build Wi-Fi stack from source
+54eb6ca everpal: vintf: cm: remove ximi touchfeature remains
+af83036 Revert "everpal: proprietary-files: remove 32bit camera libs not needed we use 64bit"
+aa893de everpal: device: build libtextclassifier_hash
+37015ad everpal: proprietary-files: readd libforkexecwrap
+4490dda everpal: vintf: fcm: revert drm clearkey to hidl
+8098cd7 everpal: device: switch drm clearkey to hidl 1.4
+3a85c3c everpal: proprietary-files: rename power.default to mt6833
+a17e479 everpal: proprietary-files: rename gralloc.default to mt6833
+d5541b5 everpal: proprietary-files: remove libvorbisidec
+b628cc9 everpal: proprietary-files: remove libbinderdebug
+3a8a0a6 everpal: proprietary-files: remove libtestclassifier_hash
+d21e954 everpal: proprietary-files: remove libsoft_attestation_cert
+0757b10 everpal: proprietary-files: remove apns-conf
+354af3f everpal: proprietary-files: remove libcppbor_external, libcppcose_rkp
+f9daa5d everpal: proprietary-files: remove libvpx
+6dc87cb everpal: proprietary-files: remove libz_stable
+cff31db everpal: proprietary-files: remove libshmem compat, util
+c53853e everpal: proprietary-files: remove libpcap
+38bfe2c everpal: proprietary-files: remove libopus
+2dbb345 everpal: proprietary-files: add missing nfc firmware from opal - v14.0.2.0.TGLMIXM
+8c043d8 everpal: proprietary-files: remove duplicate firmware
+ee81969 everpal: proprietary-files: cleanup firmware dir
+52a2245 everpal: proprietary-files: remove android.hardware.hardware_keystore.km41.xml permission
+f8452f1 everpal: proprietary-files: cleanup init dir
+18e5702 everpal: proprietary-files: remove vib_cal
+c03855e everpal: proprietary-files: remove dmabuf_dump
+1c45fcd everpal: proprietary-files: remove getgameserver, testgameserver
+1deb263 everpal: device: remove dumpstate
+7f2be7e everpal: proprietary-files: remove dumpstate
+1595546 everpal: proprietary-files: remove 32bit camera libs not needed we use 64bit
+6753352 everpal: proprietary-files: remove not needed pixel images on aosp
+a263d99 everpal: proprietary-files: remove ro.prop not needed on aosp
+494c294 everpal: proprietary-files: remove useless res test dir
+ea61e8b everpal: proprietary-files: remove audioclient-types, framework-permission, shared-file-region, aidl-cpp files
+3f9abaa everpal: proprietary-files: remove ximi fingerprint fpmmi framework
+2b7ac5b everpal: vintf: remove ximi fingerprint extension
+bbd9c7a everpal: proprietary-files: remove ximi fingerprint extension
+ea0a9d8 everpal: vintf: remove factoryinterface, ata
+c4375c4 everpal: proprietary-files: remove factoryinterface, ata, mmigroup
+da319e3 everpal: proprietary-files: remove gamedriver
+76e500f everpal: device: use 64bit audio & audio effect impl hals
+d5c105c everpal: device: build libprotobuf-cpp full,lite
+0761557 everpal: proprietary-files: remove stock libprotobuf-cpp full,lite
+e06b1d1 everpal: device: remove configstore policy
+2597e57 everpal: device: rearrange android.hardware.media.c2
+e1ff42f everpal: device: add libavservices_minijail
+ef7fa93 everpal: proprietary-files: remove stock libsfplugin_ccodec_utils
+75256cf everpal: device: build libcodec2 hidl,vndk
+43b87c8 everpal: proprietary-files: remove libcodec2 hidl,vndk
+427215f everpal: configs: seccomp: remove configstore policy
+83db224 everpal: proprietary-files: remove stock light hal remains
+7b61f9f everpal: proprietary-files: update neural network & nfc hashes from opal - v14.0.2.0.TGLMIXM
+ef6cb7c everpal: proprietary-files: remove ximi mtdservice remains
+06441f8 everpal: vintf: fcm: remove ximi mfidoca
+2d2b766 everpal: proprietary-files: remove ximi mfidoca
+d55ea8b everpal: device: remove ximi mlipay
+778330c everpal: vintf: fcm: remove ximi mlipay
+7cb4a71 everpal: proprietary-files: remove ximi mlipay
+86f72e1 everpal: vintf: fcm: remove ximi tidaservice
+341ea61 everpal: proprietary-files: remove ximi tidaservice
+ea08bed everpal: vintf: fcm: remove ximi mtdservice
+e1f0ec4 everpal: proprietary-files: remove ximi mtdservice
+ceab4ff everpal: vintf: remove ximi touchfeature
+d4bd143 everpal: proprietary-files: remove ximi touchfeature
+e41addd everpal: vintf: fcm: remove ximi micharge
+af63be4 everpal: proprietary-files: remove ximi micharge
+fe3c11f everpal: Import Bluetooth WIFI MCU firmwares from Samsung SM-A145P
+908b3a6 everpal: configs: update privapp-permissions-com.mediatek from evergo - v14.0.2.0.TGBINXM
+423debc everpal: vintf: fcm: declare missing aidl hals
+698ee69 everpal: vintf: fcm: declare missing hidl hals
+9aa064b everpal: vintf: fcm: bump compatibility matrix version to 5.0
+d435d74 everpal: vintf: fcm: uprev mtd service
+f153097 everpal: libinit: update build fingerprints to miui v14
+dcc4bd3 everpal: libinit: add manufacturer overrides
+3ece6d2 everpal: props: system.prop: update sf app duration values from evergo - v14.0.2.0.TGBINXM
+db0ea95 everpal: props: vendor.prop: update sf high fps values from evergo - v14.0.2.0.TGBINXM
+6f576c3 everpal: props: vendor.prop: remove duplicate sf flags
+25c86ad everpal: rootdir: update init files from evergo - v14.0.2.0.TGBINXM
+943f6d7 everpal: configs: update media audio perf from evergo - v14.0.2.0.TGBINXM
+f8f6458 everpal: prebuilt: update from evergo - v14.0.2.0.TGBINXM
+b9b5096 everpal: proprietary-files: sync blobs list from evergo - v14.0.2.0.TGBINXM
+5cd8726 everpal: proprietary-files: remove voicecommand bloat
+70a9022 everpal: rro_overlays: update brightness values from lineage-20 xiaomi sweet trees
+2130814 everpal: Build `init.recovery.mt6833.rc` as a package
+1b05434 everpal: fixup! Set correct channel mask for `BT SCO Headset Mic`
+bbbc0c4 everpal: Fix ownership for /dev/video{0,1}
+a7f68cd everpal: Fix permissions for /dev/mtk_mdp and /dev/mdp_sync
+e037dcc everpal: Uprev light aidl to v2
+60b192b everpal: Drop useless init scripts
+2a4f923 everpal: Drop some haptics props
+25a6480 everpal: Kang Recovery UI margin height from `gs201`
+52a9978 everpal: vibrator: Rename vibrator impl library
+63a8805 everpal: Drop some audio configs
+38afd71 everpal: Import missing `bluetooth_offload_audio_policy_configuration.xml`
+2806bc1 everpal: Build first stage ramdisk as a package
+bb29d44 everpal: media: Include video codecs
+b594e78 everpal: media: Include c2 media codecs
+2663366 Revert "everpal: Drop `seclabel` option for the `mi_thermald` service"
+2e0ef3f everpal: rro_overlays: update power_profile from evergo - v14.0.0.12.TGBCNXM
+ca1db69 everpal: rro_overlays: Enable zram writeback job scheduler
+6f45061 everpal: props: add zram write back policy
+bb416a8 everpal: rootdir: Set vm swappiness to 60
+7cc3671 everpal: rootdir: drop init.ago.rc
+adb460e everpal: rootdir: fstab.*: add zram max comp, blackingdev_size
+627577c everpal: props: drop sf latch_unsignaled from vendor.prop
+fbd94be everpal: props: add missing sf flags on vendor.prop
+0874534 everpal: props: add sf vsync flags for high fps in vendor.prop
+1108e5c everpal: props: add missing debug.sf* from system.prop
+3cf03c7 everpal: update ims stack from light - V14.0.2.0.TLSMIXM
+f98d7a3 everpal: libinit: bump build fingerprint versions
+52c9197 everpal: libinit: drop safetynet workarounds
+d94ab00 everpal: bypass safetynet even if we have permissive selinux
+345629b everpal: add nodes to hide Magisk in banking apps
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+8f8bd748bbc8 GamesPropsUtils: Press F for Apex Legends
+c2185b871992 AutofillManager: Make userdebug default to NO_LOGGING
+
+* Repository: https://github.com/MTK-DM-810-UNIFIED/android_hardware_mediatek/commits/tm
+
+9ee909e Revert "aidl: Drop custom libperfmgr HAL"
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+0a4c3a6 fixup: yaml
+e495da5 add workflow_dispatch event for gerrit hooks
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
+
+dd2f007 CameraUtil: Dont go frenzy when camera not found
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+6af46fc8 version: Update to 7.9.8 (Lugaw)
+fabf9f5d overlay: Move config_hspa_data_distinguishable to proper location
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+f16c47b power: Remove unused variable
+
+* Repository: https://gitlab.com/sd369888/vendor_xiaomi_everpal/commits/thirteen
+
+13fd927 everpal: sync proprietary-files
+
+
+=======================
+     2023/09/16
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+732a706 Aperture: Update workflows versions
+67078d0 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+cfe75266 prebuilt: Remove old Sprint APNs
+
+
+=======================
+     2023/09/15
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+c14b0ae common: Move in mediashell rules from ATV
+4a71c88 atv: Allow TvSettings to set adb port property
+28fad77 atv: Update mediashell_app policy
+1ff4130 atv: remove duplicated mediashell_app rule
+3a211c6 Partially revert "atv: Allow setupwraith configs to be set by vendor"
+951c466 atv: vendor: Remove adbd_prop references
+64eb9ff atv: Label and allow mediashell_app what it needs
+128b5fd atv: Allow setupwraith configs to be set by vendor
+583d06f atv: Allow gmscore_app what it needs
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+79ee5da Aperture: Run ./gradlew app:generateBp
+7fccb00 Aperture: Use generateBp plugin from maven repo
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+f5410a60 qcom: Add parrot platform
+
+* Repository: https://gitlab.com/sd369888/vendor_xiaomi_everpal/commits/thirteen
+
+91bf973 everpal: sync proprietary-files
+
+
+=======================
+     2023/09/14
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+bbe09084 recovery: Bypass reboot prompt for sideload-auto-reboot
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+7855ffbff78e SystemServer: Add configs for Lineage Health and LiveDisplay services
+eb3d3c7ae4f3 New Crowdin updates (#463)
+e612f9175a2f Add null checks when registering backup transport
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
+
+d1145d8 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+005fd58eab New Crowdin updates (#343-#350)
+8952b885f1 Settings: Hide Fast charging from search if not supported
+7bdebc43ce Settings: Extend Fastcharge implementation [2/3]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+b615fcee config: device_framework_matrix: Add IRestrictedCurrent
+a3fa3fd7 Revert "config: Remove TextClassifier packages"
+88ed0e77 kernel: Handle GKI modules
+aa4d695b custom_apns: Check MCC/MNC for override APN
+29a8fe9d config: Disable OTA Updater for A14
+
+* Repository: https://gitlab.com/sd369888/vendor_xiaomi_everpal/commits/thirteen
+
+09f600e everpal: sync proprietary-files
+37c60c4 everpal: sync proprietary-files
+
+
+=======================
+     2023/09/13
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+73f776b Fastcharge: add ResctrictedCurrent interface to hwservice contexts
+
+* Repository: https://github.com/dm700-devs/device_mediatek_sepolicy_vndr/commits/thirteen
+
+b9647ec sepolicy: basic: non_plat: Kang pixel thermal SEPolicy
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+9a495512d418 Revert "SystemUI: Add support for toggling Combined QS Header (1/2)"
+
+* Repository: https://github.com/Evolution-X/hardware_evolution_interfaces/commits/refs/heads/tiramisu
+
+7ded091 interfaces: Extend Fastcharge implementation [1/3]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+208f297 Revert "Evolver: Make Combined Qs Headers Optional with Toggle (2/2)"
+d82d07e Evolver: Add setMinValue
+
+
+=======================
+     2023/09/12
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+9009fd8 common: bengal-5.15 > SM6225
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+e77ea54a88cb core: pm: Allow wildcard in RRO system property value checks
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8550
+
+a72154a agm: fixup!: OSS compile for plugins
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+1bd3662 Aperture: Update CameraX maven repo URL
+5cd5058 Aperture: Detect uncommitted changes after running app:generateBp
+
+* Repository: https://gitlab.com/sd369888/vendor_xiaomi_everpal/commits/thirteen
+
+08d8ac1 everpal: sync proprietary-files
+
+
+=======================
+     2023/09/11
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+7128a05 common: Track vendor/qcom/opensource/audio
+3693589 vendor: telephony: Enable Enable IMS single registration for 5.15 kernel version
+2a41c4a vendor: telephony: Switch Enable IMS single registration condition to kernel version
+4c6b250 vendor: bt: Build vendor.qti.hardware.bluetooth.audio-V1-ndk
+cb10b7c vendor: bt: Add condition to use AIDL QTI bt audio
+08c96fb common: telephony: Prepare for non-legacy dataservices
+872411b common: Enable dlkm based in kernel version
+30228af dlkm: Add kalama in-list
+bf20945 dlkm: Add bengal in-list
+69c158f dlkm: Add support to system_dlkm kernel modules build
+4169f79 common: Skip MASTER_SIDE_CP_TARGET_LIST to 5.4 >>> kernel version
+b2b8b75 vendor: media: fixup! 803ea99
+6078770 common: Fix bengal and kona conditions to 5.15
+11e79fd common: Fix 5_15 family components condition
+828a229 common: Define the partition source order for product/build properties pickup
+d244d15 telephony: Enable IMS single registration for 5.10 platforms
+61fd90b vendor: init: init.target.rc: Move SPU NVM directories creation to earlier stage.
+ca169b1 vendor: init: init.qcom.rc: Move SPU NVM direcroty creation to earlier stage
+ff49b35 vendor: init: Create aospa init script to qcom changes
+c964a0c vendor: copy charger init from charging component
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+cec253b839d6 base: core: Unregister broadcast receiver only when registered
+3ff7a1369c65 SystemUI: Enable power menu blur via window flags
+
+
