@@ -1,17 +1,17 @@
 {
-    "datetime": 1696690929,
+    "datetime": 1696919570,
     "donate_url": "https://www.patreon.com/mmtrt",
     "error": false,
-    "filehash": "35d7982be711fcfba64ee4d7e2026d98",
-    "filename": "evolution_everpal-ota-tq3c.230901.001.b1-10081400-community-unsigned.zip",
+    "filehash": "5e5e8f9e0d1d4cc2dc7cff7422574cbb",
+    "filename": "evolution_everpal-ota-tq3c.230901.001.b1-10101245-community-unsigned.zip",
     "forum_url": "",
-    "id": "72f6a020627980258844f8fe656e4296ea89dad41fd506ad4f410b3d26ca771b",
+    "id": "5bfdd684a386382900324003de2cd43c8d8fc3fceb710db6bf76dbb16da16d26",
     "maintainer": "Weaponmasterjax",
     "maintainer_url": "https://t.me/sovietjax",
     "news_url": "https://t.me/mt6833unified_updates",
-    "size": 1855854941,
+    "size": 1852015851,
     "telegram_username": "sovietjax",
-    "url": "https://github.com/MTK-DM-810-UNIFIED/official_devices/releases/download/evox-7.9.9-rc1/evolution_everpal-ota-tq3c.230901.001.b1-10081400-community-unsigned.zip",
+    "url": "https://github.com/weaponmasterjax/ghdown/releases/download/test2/evolution_everpal-ota-tq3c.230901.001.b1-10101245-community-unsigned.zip",
     "version": "Thirteen",
     "website_url": "https://evolution-x.org"
  }
