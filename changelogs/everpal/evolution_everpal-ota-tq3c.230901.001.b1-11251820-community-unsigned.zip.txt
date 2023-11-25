@@ -1,0 +1,14 @@
+=======================
+     2023/11/25
+=======================
+Changelog:
+• **EOL build.**
+• **November SP**.
+• Fixed **FP scanner** conflict with power button. Credit to @CHRISL7 for fix and @weaponmasterjax for implement.
+• Fixed **GPS** taking too long to locate satelites.
+• Fixed **Deepsleep** aka doze.
+• Fixed Power management.
+• Fixed safetynet.
+• Misc Performance tune and battery life optimization.
+
+
